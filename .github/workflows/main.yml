@@ -41,4 +41,4 @@ jobs:
           # 用户
           REMOTE_USER: "ubuntu"
           # 目标地址 你在服务器上部署代码的地方
-          TARGET: "/web/portfolio"
+          TARGET: "/www/portfolio"
