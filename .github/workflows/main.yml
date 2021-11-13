@@ -39,6 +39,6 @@ jobs:
           # 服务器ip：换成你的服务器IP
           REMOTE_HOST: "101.32.26.151"
           # 用户
-          REMOTE_USER: "ubuntu"
+          REMOTE_USER: "root"
           # 目标地址 你在服务器上部署代码的地方
           TARGET: "/www/portfolio"
