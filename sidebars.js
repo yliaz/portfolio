@@ -39,17 +39,20 @@ const sidebars = {
     {
       type: 'category',
       label: 'M1 Macbook 开发环境配置',
-      items: ['experience/example-02'],
+      items: ['experience/install-homebrew-on-m1-mac'],
     },
     {
       type: 'category',
-      label: '个人建站相关',
-      items: ['experience/example-02'],
+      label: '使用 Docusaurus 构建个人主页',
+      items: [
+        'experience/portfolio-buy-domain',
+        'experience/portfolio-buy-server',
+      ],
     },
     {
       type: 'category',
-      label: 'Notion 相关',
-      items: ['experience/example-02'],
+      label: 'Notion 使用技巧',
+      items: ['experience/notion-custom-domain'],
     },
   ],
   translationSideBar: [

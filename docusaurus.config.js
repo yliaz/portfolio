@@ -51,7 +51,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'experience/example-02',
+            docId: 'experience/notion-custom-domain',
             position: 'left',
             label: '经验总结',
           },
