@@ -45,37 +45,37 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'example-01',
+            docId: 'blog/example-01',
             position: 'left',
             label: '技术博客',
           },
           {
             type: 'doc',
-            docId: 'example-02',
+            docId: 'experience/example-02',
             position: 'left',
             label: '经验总结',
           },
           {
             type: 'doc',
-            docId: 'example-03',
+            docId: 'translation/example-03',
             position: 'left',
             label: '翻译',
           },
           {
             type: 'doc',
-            docId: 'example-04',
+            docId: 'interview/example-04',
             position: 'left',
             label: '面试',
           },
           {
             type: 'doc',
-            docId: 'example-05',
+            docId: 'leetcode/example-05',
             position: 'left',
             label: '力扣',
           },
           {
             type: 'doc',
-            docId: 'example-06',
+            docId: 'reading-note/example-06',
             position: 'left',
             label: '读书笔记',
           },
@@ -86,11 +86,30 @@ const config = {
             'aria-label': 'GitHub repository',
           },
           {
-            href: 'https://juejin.cn/user/2911162522934215',
+            href: 'https://juejin.cn/user/2911162522934215/posts',
             position: 'right',
             className: 'header-juejin-link',
             'aria-label': 'Juejin Homepage',
           },
+          {
+            href: 'https://www.yuque.com/gangafengliu',
+            position: 'right',
+            className: 'header-yuque-link',
+            'aria-label': 'Yuque Homepage',
+          },
+          {
+            type: 'dropdown',
+            label: ' ',
+            className: 'header-wechat-qrcode-dropdown',
+            position: 'right',
+            items: [
+              {
+                to: '#',
+                className: 'header-wechat-qrcode',
+                'aria-label': 'Wechat Qrcode',
+              },
+            ]
+          }
         ],
         
       },
@@ -110,15 +129,15 @@ const config = {
               },
               {
                 label: '掘金',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://juejin.cn/user/2911162522934215/posts',
               },
               {
                 label: '语雀',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://www.yuque.com/gangafengliu',
               },
               {
                 label: 'Bilibili',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://space.bilibili.com/325194728',
               },
             ],
           },

@@ -62,32 +62,68 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.header-github-link, .header-juejin-link {
-  padding: 0 10px 0 0;
-}
-
-.header-github-link:hover, .header-juejin-link:hover {
+.header-github-link:hover, .header-juejin-link:hover, .header-yuque-link:hover {
   opacity: 0.6;
 }
 
-.header-github-link:before {
+.header-github-link::before {
   content: '';
   width: 24px;
   height: 24px;
   display: flex;
-  background-image: url(/static/img/github.svg);
+  background-image: url(/static/img/logo/github.svg);
   background-size: contain;
 }
 
 html[data-theme='dark'] .header-github-link:before {
-  background-image: url(/static/img/github-white.svg);
+  background-image: url(/static/img/logo/github-white.svg);
 }
 
-.header-juejin-link::after {
+.header-juejin-link::before {
   content: '';
   width: 32px;
   height: 32px;
   display: flex;
-  background-image: url(/static/img/juejin.svg);
+  background-image: url(/static/img/logo/juejin.svg);
   background-size: contain;
+}
+
+.header-yuque-link::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background-image: url(/static/img/logo/yuque.svg);
+  background-size: contain;
+}
+
+.header-wechat-qrcode {
+  position: relative;
+}
+
+.header-wechat-qrcode::before {
+  content: '';
+  width: 200px;
+  height: 200px;
+  display: block;
+  background-image: url(/static/img/qrcode.png);
+  background-size: contain;
+}
+
+.header-wechat-qrcode-dropdown {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background-image: url(/static/img/logo/wechat.svg);
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.header-wechat-qrcode-dropdown::after {
+  display: none !important;
+}
+
+.navbar__item.dropdown {
+  cursor: pointer;
 }
