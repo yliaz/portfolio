@@ -7,14 +7,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '朱烨的主页',
-  tagline: 'Talk is cheap, show me the code!',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: '只有那些疯狂到以为自己可以改变世界的人，才能改变这个世界。',
+  url: 'https://zhuye.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'zhuye', // Usually your GitHub org/user name.
+  projectName: 'zhuye-site', // Usually your repo name.
 
   presets: [
     [
@@ -24,13 +24,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+          // editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,70 +37,123 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '朱烨的主页',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'example-01',
             position: 'left',
-            label: 'Tutorial',
+            label: '技术博客',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            type: 'doc',
+            docId: 'example-02',
+            position: 'left',
+            label: '经验总结',
+          },
+          {
+            type: 'doc',
+            docId: 'example-03',
+            position: 'left',
+            label: '翻译',
+          },
+          {
+            type: 'doc',
+            docId: 'example-04',
+            position: 'left',
+            label: '面试',
+          },
+          {
+            type: 'doc',
+            docId: 'example-05',
+            position: 'left',
+            label: '力扣',
+          },
+          {
+            type: 'doc',
+            docId: 'example-06',
+            position: 'left',
+            label: '读书笔记',
+          },
+          {
+            href: 'https://github.com/yliaz',
             position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
+          },
+          {
+            href: 'https://juejin.cn/user/2911162522934215',
+            position: 'right',
+            className: 'header-juejin-link',
+            'aria-label': 'Juejin Homepage',
           },
         ],
+        
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '去哪里找我？',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Github',
+                href: 'https://github.com/yliaz',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: '我的 Notion 主页',
+                href: 'https://zhuye.site',
               },
               {
-                label: 'Twitter',
+                label: '掘金',
+                href: 'https://twitter.com/docusaurus',
+              },
+              {
+                label: '语雀',
+                href: 'https://twitter.com/docusaurus',
+              },
+              {
+                label: 'Bilibili',
                 href: 'https://twitter.com/docusaurus',
               },
             ],
           },
           {
-            title: 'More',
+            title: '我的开源贡献',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: '本站源代码',
+                href: 'https://github.com/yliaz/portfolio'
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'React 新版中文文档翻译（beta）',
+                href: 'https://github.com/reactjs/zh-hans.reactjs.org/pulls?q=is%3Apr+author%3Ayliaz+'
               },
-            ],
+              {
+                label: '一些技术分享的 PPT',
+                href: 'https://github.com/yliaz/MyPPTs'
+              }
+            ]
           },
+          {
+            title: '一些小项目',
+            items: [
+              {
+                label: 'Three Cubes Demo（with three.js）',
+                href: 'https://github.com/yliaz/three-cubes-demo'
+              },
+              {
+                label: '纯 CSS 绘制海绵宝宝',
+                href: 'https://github.com/yliaz/pure-css-sponge-bob-friends',
+              }
+            ]
+          }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 朱烨的主页 Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

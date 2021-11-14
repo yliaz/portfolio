@@ -6,14 +6,49 @@
 
 /* You can override the default Infima variables here. */
 :root {
+  /* Green Theme
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
   --ifm-color-primary-darkest: rgb(26, 136, 112);
   --ifm-color-primary-light: rgb(70, 203, 174);
   --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary-lightest: rgb(146, 224, 208); */
+
+  /* Blue Theme */
+  --ifm-color-primary: #5493F7;
+  --ifm-color-primary-dark: #2776F5;
+  --ifm-color-primary-darker: #0B5DE2;
+  --ifm-color-primary-darkest: #094BB5;
+  --ifm-color-primary-light: #6DA2F8;
+  --ifm-color-primary-lighter: #85B2F9;
+  --ifm-color-primary-lightest: #9EC1FA;
   --ifm-code-font-size: 95%;
+
+  /* Orange Theme
+  --ifm-color-primary: #FE9B4A;
+  --ifm-color-primary-dark: #FE8D31;
+  --ifm-color-primary-darker: #FE801A;
+  --ifm-color-primary-darkest: #FE7403;
+  --ifm-color-primary-light: #FEA155;
+  --ifm-color-primary-lighter: #FEA962;
+  --ifm-color-primary-lightest: #FEB06F;
+  --ifm-code-font-size: 95%; */
+
+  /* Purple Theme
+  --ifm-color-primary: #9b4aff;
+  --ifm-color-primary-dark: #8929ff;
+  --ifm-color-primary-darker: #8019ff;
+  --ifm-color-primary-darkest: #6700e6;
+  --ifm-color-primary-light: #ad6bff;
+  --ifm-color-primary-lighter: #b67bff;
+  --ifm-color-primary-lightest: #d2adff;
+  --ifm-code-font-size: 95%; */
+
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #242526;
 }
 
 .docusaurus-highlight-code-line {
@@ -25,4 +60,34 @@
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.header-github-link, .header-juejin-link {
+  padding: 0 10px 0 0;
+}
+
+.header-github-link:hover, .header-juejin-link:hover {
+  opacity: 0.6;
+}
+
+.header-github-link:before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background-image: url(/static/img/github.svg);
+  background-size: contain;
+}
+
+html[data-theme='dark'] .header-github-link:before {
+  background-image: url(/static/img/github-white.svg);
+}
+
+.header-juejin-link::after {
+  content: '';
+  width: 32px;
+  height: 32px;
+  display: flex;
+  background-image: url(/static/img/juejin.svg);
+  background-size: contain;
 }
