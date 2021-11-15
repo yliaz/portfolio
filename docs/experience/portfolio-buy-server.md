@@ -16,7 +16,7 @@ title: 购买服务器
 
 支付成功后，就可以进入控制台查看服务器是否在运行了。
 
-![image-20211114211528954](https://zhuye-1308301598.cos.ap-hongkong.myqcloud.com/markdown/image-20211114211528954.png)
+![image-20211114211528954](https://zhuye-1308301598.file.myqcloud.com/markdown/image-20211114211528954.png)
 
 
 
