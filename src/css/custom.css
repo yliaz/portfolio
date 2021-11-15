@@ -6,6 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
+
   /* Green Theme
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: rgb(33, 175, 144);
@@ -45,6 +46,22 @@
   --ifm-color-primary-lightest: #d2adff;
   --ifm-code-font-size: 95%; */
 
+}
+
+.markdown h1:first-child {
+  --ifm-h1-font-size: 2rem;
+}
+
+.markdown h2 {
+  --ifm-h2-font-size: 1.5rem;
+}
+
+.markdown h3 {
+  --ifm-h3-font-size: 1.2rem;
+}
+
+.markdown h4 {
+  --ifm-h4-font-size: 1.1rem;
 }
 
 .footer--dark {

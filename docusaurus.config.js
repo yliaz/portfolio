@@ -51,7 +51,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'experience/notion-custom-domain',
+            docId: 'experience/portfolio-buy-domain',
             position: 'left',
             label: '经验总结',
           },
