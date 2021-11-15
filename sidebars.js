@@ -27,7 +27,7 @@ const sidebars = {
     {
       type: 'category',
       label: '算法',
-      items: ['blog/example-01'],
+      items: ['blog/algorithm/unicode-to-utf-8'],
     },
     {
       type: 'category',
@@ -39,7 +39,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'M1 Macbook 开发环境配置',
-      items: ['experience/install-homebrew-on-m1-mac'],
+      items: ['experience/m1-macbook-install-homebrew'],
     },
     {
       type: 'category',

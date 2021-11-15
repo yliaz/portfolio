@@ -10,7 +10,7 @@ title: 购买域名
 
 
 
-![image-20211114204900174](https://zhuye-1308301598.cos.ap-hongkong.myqcloud.com/markdown/image-20211114204900174.png)
+![image-20211114204900174](https://zhuye-1308301598.file.myqcloud.com/markdown/image-20211114204900174.png)
 
 
 
@@ -30,11 +30,11 @@ title: 购买域名
 
 点击➕号可以把域名添加到购物车，并且可以修改要购买的年数。
 
-![image-20211114205422114](https://zhuye-1308301598.cos.ap-hongkong.myqcloud.com/markdown/image-20211114205422114.png)
+![image-20211114205422114](https://zhuye-1308301598.file.myqcloud.com/markdown/image-20211114205422114.png)
 
 选好以后就可以点击购买下单了。
 
-![image-20211114205509266](https://zhuye-1308301598.cos.ap-hongkong.myqcloud.com/markdown/image-20211114205509266.png)
+![image-20211114205509266](https://zhuye-1308301598.file.myqcloud.com/markdown/image-20211114205509266.png)
 
 注意在下单时，可以填写优惠券，你可以去[这个网站](https://coupons.thedailybeast.com/coupons/godaddy)看，或者直接谷歌搜索  `godaddy coupon` ，一般能做到7折左右，我买了一个 `zhuye.dev` 域名2年期限花了大概 ¥180，感觉还可以不算很贵。
 
@@ -44,6 +44,6 @@ title: 购买域名
 
 然后就可以进入[域名控制台](https://dcc.godaddy.com/domains)进行域名的管理了。
 
-![image-20211114205926626](https://zhuye-1308301598.cos.ap-hongkong.myqcloud.com/markdown/image-20211114205926626.png)
+![image-20211114205926626](https://zhuye-1308301598.file.myqcloud.com/markdown/image-20211114205926626.png)
 
 后面我们购买完服务器之后，还需要进入这个页面，修改域名的DNS解析服务器。

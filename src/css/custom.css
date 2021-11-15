@@ -81,8 +81,8 @@ html[data-theme='dark'] .header-github-link:before {
 
 .header-juejin-link::before {
   content: '';
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
   display: flex;
   background-image: url(/static/img/logo/juejin.svg);
   background-size: contain;
