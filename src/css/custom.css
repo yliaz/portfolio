@@ -110,7 +110,8 @@ html[data-theme='dark'] .header-github-link:before {
   background-size: contain;
 }
 
-.header-wechat-qrcode-dropdown {
+.header-wechat-qrcode-dropdown::before {
+  content: '';
   cursor: pointer;
   width: 24px;
   height: 24px;
