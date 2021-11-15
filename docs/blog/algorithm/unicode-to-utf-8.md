@@ -29,7 +29,7 @@ title: 从Unicode到UTF-8，其实很容易
 
 ### 举个例子 🌰
 
-![utf-8.png](https://zhuye-1308301598.file.myqcloud.com/markdown/173102efa27b5fff~tplv-t2oaga2asx-image.image)
+![unicode-to-utf-8](https://zhuye-1308301598.file.myqcloud.com/markdown/unicode-to-utf-8.png)
 
 
 ## 源代码（附注释）
