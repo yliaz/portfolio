@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "朱烨的主页",
+    "description": "The title in the navbar"
+  },
+  "item.label.技术博客": {
+    "message": "技术博客",
+    "description": "Navbar item with label 技术博客"
+  },
+  "item.label.经验总结": {
+    "message": "经验总结",
+    "description": "Navbar item with label 经验总结"
+  },
+  "item.label.翻译": {
+    "message": "翻译",
+    "description": "Navbar item with label 翻译"
+  },
+  "item.label.面试": {
+    "message": "面试",
+    "description": "Navbar item with label 面试"
+  },
+  "item.label.力扣": {
+    "message": "力扣",
+    "description": "Navbar item with label 力扣"
+  },
+  "item.label.读书笔记": {
+    "message": "读书笔记",
+    "description": "Navbar item with label 读书笔记"
+  },
+  "item.label. ": {
+    "message": " ",
+    "description": "Navbar item with label  "
+  }
+}

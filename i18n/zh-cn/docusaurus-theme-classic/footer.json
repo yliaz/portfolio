@@ -1,0 +1,58 @@
+{
+  "link.title.去哪里找我？": {
+    "message": "去哪里找我？",
+    "description": "The title of the footer links column with title=去哪里找我？ in the footer"
+  },
+  "link.title.我的开源贡献": {
+    "message": "我的开源贡献",
+    "description": "The title of the footer links column with title=我的开源贡献 in the footer"
+  },
+  "link.title.一些小项目": {
+    "message": "一些小项目",
+    "description": "The title of the footer links column with title=一些小项目 in the footer"
+  },
+  "link.item.label.Github": {
+    "message": "Github",
+    "description": "The label of footer link with label=Github linking to https://github.com/yliaz"
+  },
+  "link.item.label.我的 Notion 主页": {
+    "message": "我的 Notion 主页",
+    "description": "The label of footer link with label=我的 Notion 主页 linking to https://zhuye.site"
+  },
+  "link.item.label.掘金": {
+    "message": "掘金",
+    "description": "The label of footer link with label=掘金 linking to https://juejin.cn/user/2911162522934215/posts"
+  },
+  "link.item.label.语雀": {
+    "message": "语雀",
+    "description": "The label of footer link with label=语雀 linking to https://www.yuque.com/gangafengliu"
+  },
+  "link.item.label.Bilibili": {
+    "message": "Bilibili",
+    "description": "The label of footer link with label=Bilibili linking to https://space.bilibili.com/325194728"
+  },
+  "link.item.label.本站源代码": {
+    "message": "本站源代码",
+    "description": "The label of footer link with label=本站源代码 linking to https://github.com/yliaz/portfolio"
+  },
+  "link.item.label.React 新版中文文档翻译（beta）": {
+    "message": "React 新版中文文档翻译（beta）",
+    "description": "The label of footer link with label=React 新版中文文档翻译（beta） linking to https://github.com/reactjs/zh-hans.reactjs.org/pulls?q=is%3Apr+author%3Ayliaz+"
+  },
+  "link.item.label.一些技术分享的 PPT": {
+    "message": "一些技术分享的 PPT",
+    "description": "The label of footer link with label=一些技术分享的 PPT linking to https://github.com/yliaz/MyPPTs"
+  },
+  "link.item.label.Three Cubes Demo（with three.js）": {
+    "message": "Three Cubes Demo（with three.js）",
+    "description": "The label of footer link with label=Three Cubes Demo（with three.js） linking to https://github.com/yliaz/three-cubes-demo"
+  },
+  "link.item.label.纯 CSS 绘制海绵宝宝": {
+    "message": "纯 CSS 绘制海绵宝宝",
+    "description": "The label of footer link with label=纯 CSS 绘制海绵宝宝 linking to https://github.com/yliaz/pure-css-sponge-bob-friends"
+  },
+  "copyright": {
+    "message": "Copyright © 2021 朱烨的主页 Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

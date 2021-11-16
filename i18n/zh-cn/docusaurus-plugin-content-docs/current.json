@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.blogSideBar.category.CSS": {
+    "message": "CSS",
+    "description": "The label for category CSS in sidebar blogSideBar"
+  },
+  "sidebar.blogSideBar.category.JavaScript": {
+    "message": "JavaScript",
+    "description": "The label for category JavaScript in sidebar blogSideBar"
+  },
+  "sidebar.blogSideBar.category.算法": {
+    "message": "算法",
+    "description": "The label for category 算法 in sidebar blogSideBar"
+  },
+  "sidebar.blogSideBar.category.杂七杂八": {
+    "message": "杂七杂八",
+    "description": "The label for category 杂七杂八 in sidebar blogSideBar"
+  },
+  "sidebar.experienceSideBar.category.M1 Macbook 开发环境配置": {
+    "message": "M1 Macbook 开发环境配置",
+    "description": "The label for category M1 Macbook 开发环境配置 in sidebar experienceSideBar"
+  },
+  "sidebar.experienceSideBar.category.使用 Docusaurus 构建个人主页": {
+    "message": "使用 Docusaurus 构建个人主页",
+    "description": "The label for category 使用 Docusaurus 构建个人主页 in sidebar experienceSideBar"
+  },
+  "sidebar.experienceSideBar.category.Notion 使用技巧": {
+    "message": "Notion 使用技巧",
+    "description": "The label for category Notion 使用技巧 in sidebar experienceSideBar"
+  },
+  "sidebar.interviewSideBar.category.前端面试刷题": {
+    "message": "前端面试刷题",
+    "description": "The label for category 前端面试刷题 in sidebar interviewSideBar"
+  },
+  "sidebar.interviewSideBar.category.英语面试技巧": {
+    "message": "英语面试技巧",
+    "description": "The label for category 英语面试技巧 in sidebar interviewSideBar"
+  },
+  "sidebar.readingNoteSideBar.category.ES6 标准入门": {
+    "message": "ES6 标准入门",
+    "description": "The label for category ES6 标准入门 in sidebar readingNoteSideBar"
+  },
+  "sidebar.readingNoteSideBar.category.图解 HTTP": {
+    "message": "图解 HTTP",
+    "description": "The label for category 图解 HTTP in sidebar readingNoteSideBar"
+  },
+  "sidebar.readingNoteSideBar.category.CSS 揭秘": {
+    "message": "CSS 揭秘",
+    "description": "The label for category CSS 揭秘 in sidebar readingNoteSideBar"
+  }
+}
