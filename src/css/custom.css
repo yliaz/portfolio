@@ -145,3 +145,7 @@ html[data-theme='dark'] .header-github-link:before {
 .navbar__item.dropdown {
   cursor: pointer;
 }
+
+.navbar__search {
+  margin-left: 20px;
+}

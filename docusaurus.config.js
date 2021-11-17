@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'zhuye', // Usually your GitHub org/user name.
-  projectName: 'zhuye-site', // Usually your repo name.
+  projectName: 'zhuye-dev-site', // Usually your repo name.
 
   presets: [
     [
@@ -181,8 +181,8 @@ const config = {
     }),
 
   i18n: {
-    defaultLocale: 'zh-cn',
-    locales: ['zh-cn', 'en'],
+    defaultLocale: 'zh',
+    locales: ['zh', 'en'],
   },
 
   plugins: [[
