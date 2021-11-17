@@ -27,7 +27,7 @@ const config = {
           // editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.scss'),
         },
       }),
     ],
@@ -185,12 +185,12 @@ const config = {
     locales: ['zh', 'en'],
   },
 
-  plugins: [[
-    require.resolve('docusaurus-lunr-search'),
-    {
+  plugins: [
+    [require.resolve('docusaurus-lunr-search'), {
       languages: ['en', 'zh']
-    }
-  ]]
+    }],
+    'docusaurus-plugin-sass'
+  ]
 };
 
 module.exports = config;
