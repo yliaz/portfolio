@@ -51,7 +51,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'experience/portfolio-buy-domain',
+            docId: 'experience/docusaurus/introduction',
             position: 'left',
             label: '经验总结',
           },
