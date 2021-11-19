@@ -148,6 +148,12 @@ html[data-theme='dark'] .header-github-link:before {
   cursor: pointer;
 }
 
+.navbar__title {
+  color: var(--ifm-color-primary);
+  letter-spacing:2px;
+  font-family: kbdunktank, serif;
+}
+
 .navbar__search {
   margin-left: 20px;
 }

@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '朱烨的主页',
+  title: 'ZHUYE',
   tagline: '只有那些疯狂到以为自己可以改变世界的人，才能改变这个世界。',
   url: 'https://zhuye.dev',
   baseUrl: '/',
@@ -37,7 +37,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: '朱烨的主页',
+        title: 'ZHUYE',
         logo: {
           alt: 'Logo',
           src: 'img/logo.svg',

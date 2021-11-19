@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'kbdunktank';
+    src: url("/static/fonts/kbdunktank.woff2");
+}
+
+.hugeName {
+    color: var(--ifm-color-primary);
+    font-size: 8rem;
+    font-family: kbdunktank, serif;
+    display: inline-flex;
+}

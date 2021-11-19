@@ -1,7 +1,7 @@
 import React from 'react';
-import Layout from '@theme/Layout';
 import LayoutProviders from '@theme/LayoutProviders';
 import Navbar from '@theme/Navbar';
+import {  } from 'gsap'
 
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Homepage from '@site/src/components/Homepage';
