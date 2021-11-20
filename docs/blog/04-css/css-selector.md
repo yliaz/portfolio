@@ -1,5 +1,8 @@
 ---
 title: CSS 选择器全解
+tags:
+- CSS
+- CSS Selector
 ---
 
 # ![css](https://zhuye-1308301598.file.myqcloud.com/icons/css.png) CSS 选择器全解

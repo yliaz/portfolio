@@ -1,5 +1,9 @@
 ---
 title: 在 Githug 游戏中学习 Git
+tags:
+- Git
+- Github
+- Githug
 ---
 
 # ![githug](https://zhuye-1308301598.file.myqcloud.com/icons/githug.jpeg) 在 Githug 游戏中学习 Git

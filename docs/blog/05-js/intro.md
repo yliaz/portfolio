@@ -1,5 +1,7 @@
 ---
 title: JavaScript 昨天、今天和明天
+tags:
+- JavaScript
 ---
 
 # ![js](https://zhuye-1308301598.file.myqcloud.com/icons/javascript.png) JavaScript 昨天、今天和明天
@@ -30,12 +32,15 @@ title: JavaScript 昨天、今天和明天
 **WorldWideWeb**运行在NeXT机器上，它的界面长这个样子👇🏻，它既是一个浏览器，又是一个编辑器。
 
 
-
 ![WorldWideWeb_FSF_GNU.png](https://zhuye-1308301598.file.myqcloud.com/markdown/172fb6f53b190d90~tplv-t2oaga2asx-image.image)
 
-但是**WorldWideWeb**并没有普及开来，早起普及的浏览器中最有名气的还当属由美国伊利诺伊大学的**国家超级电脑应用中心**（**NCSA**）开发的**Mosaic**。![giphy(3).gif](https://zhuye-1308301598.file.myqcloud.com/markdown/172fb6f53b2796ec~tplv-t2oaga2asx-image.image)
+但是**WorldWideWeb**并没有普及开来，早起普及的浏览器中最有名气的还当属由美国伊利诺伊大学的**国家超级电脑应用中心**（**NCSA**）开发的**Mosaic**。
 
-开发Mosaic的团队领导人**马克·安德森**后来离开了NCSA，并与另外几人共同创办了Mosaic通信公司，后来更名为**网景**公司（Netscape），并推出了一个全新的浏览器——**网景导航者**（**Netscape Navigator**）。![giphy(5).gif](https://zhuye-1308301598.file.myqcloud.com/markdown/172fb6f53b3017e0~tplv-t2oaga2asx-image.image)
+![giphy(3).gif](https://zhuye-1308301598.file.myqcloud.com/markdown/172fb6f53b2796ec~tplv-t2oaga2asx-image.image)
+
+开发Mosaic的团队领导人**马克·安德森**后来离开了NCSA，并与另外几人共同创办了Mosaic通信公司，后来更名为**网景**公司（Netscape），并推出了一个全新的浏览器——**网景导航者**（**Netscape Navigator**）。
+
+![giphy(5).gif](https://zhuye-1308301598.file.myqcloud.com/markdown/172fb6f53b3017e0~tplv-t2oaga2asx-image.image)
 
 JavaScript 诞生的故事也是从**网景**公司开始的。
 
@@ -55,18 +60,15 @@ Brendan Eich用 **10天**时间设计出了JavaScript的原型。对，没错，
 
 ### JavaScript 的命名
 
-最初的**JavaScript**还不叫这个名字，而是叫做**Mocha**。
-
-![mocha.png](https://zhuye-1308301598.file.myqcloud.com/markdown/172fb6f5828dc56b~tplv-t2oaga2asx-image.image)
+最初的**JavaScript**还不叫这个名字，而是叫做**Mocha**。<img src="https://zhuye-1308301598.file.myqcloud.com/markdown/172fb6f5828dc56b~tplv-t2oaga2asx-image.image" alt="mocha.png" style={{maxWidth: "20px"}} />
 
 之所以起一个跟咖啡有关的名字是为了蹭Java的热度（Java也是咖啡的一种）。
 
 ![giphy(11).gif](https://zhuye-1308301598.file.myqcloud.com/markdown/172fb6f5846e9bae~tplv-t2oaga2asx-image.image)
 
-在 Netscape Navigator 2.0 beta 中改名为 **LiveScript**。![LiveScript.png](https://zhuye-1308301598.file.myqcloud.com/markdown/172fb6f584071ef7~tplv-t2oaga2asx-image.image)
-在 Netscape Navigator 2.0 beta3 中更名为 **JavaScript**。 ![JavaScript.png](https://zhuye-1308301598.file.myqcloud.com/markdown/172fb6f5afbdc6ad~tplv-t2oaga2asx-image.image)
+在 Netscape Navigator 2.0 beta 中改名为 **LiveScript**。<img src="https://zhuye-1308301598.file.myqcloud.com/markdown/172fb6f584071ef7~tplv-t2oaga2asx-image.image" alt="LiveScript.png" style={{maxWidth: "20px"}} />
 
-&nbsp;
+在 Netscape Navigator 2.0 beta3 中更名为 **JavaScript**。 <img src="https://zhuye-1308301598.file.myqcloud.com/markdown/172fb6f5afbdc6ad~tplv-t2oaga2asx-image.image" alt="JavaScript.png" style={{maxWidth: "20px"}} />
 
 ![giphy(13).gif](https://zhuye-1308301598.file.myqcloud.com/markdown/172fb6f5b429d219~tplv-t2oaga2asx-image.image)
 

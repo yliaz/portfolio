@@ -1,5 +1,8 @@
 ---
 title: 命令行基础
+tags:
+- Linux
+- Command Line
 ---
 
 # ![cl](https://zhuye-1308301598.file.myqcloud.com/icons/iterm.png) 命令行基础

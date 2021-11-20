@@ -1,5 +1,8 @@
 ---
 title: Github 基础操作
+tags:
+- Git
+- Github
 ---
 
 # ![github](https://zhuye-1308301598.file.myqcloud.com/icons/github.png) Github 基础操作

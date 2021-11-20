@@ -97,6 +97,16 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Vue',
+      items: ['blog/vue/build-reactivity-system'],
+    },
+    {
+      type: 'category',
+      label: 'React',
+      items: ['blog/react/create-react-app'],
+    },
+    {
+      type: 'category',
       label: '算法',
       items: ['blog/algorithm/unicode-to-utf-8'],
     },

@@ -1,5 +1,8 @@
 ---
 title: 关于 Doctype
+tags:
+- HTML
+- Doctype
 ---
 
 # 关于 Doctype
