@@ -1,3 +1,9 @@
+---
+title: 关于 Doctype
+---
+
+# 关于 Doctype
+
 ## DOCTYPE 是什么，有什么作用？
 
 DOCTYPE 声明一般位于文档的第一行，它的作用主要有两个：

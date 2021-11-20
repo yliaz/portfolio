@@ -83,6 +83,20 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'CSS',
+      items: [
+        'blog/css/css-cascading',
+        'blog/css/css-selector',
+        'blog/css/css-conflict',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'JavaScript',
+      items: ['blog/js/intro'],
+    },
+    {
+      type: 'category',
       label: '算法',
       items: ['blog/algorithm/unicode-to-utf-8'],
     },
