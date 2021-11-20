@@ -1,18 +1,28 @@
 import React from 'react';
-import LayoutProviders from '@theme/LayoutProviders';
-import Navbar from '@theme/Navbar';
-import {  } from 'gsap'
-
+import clsx from 'clsx';
+import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Homepage from '@site/src/components/Homepage';
+import styles from './index.module.css';
+
+function HomepageHeader() {
+  const {siteConfig} = useDocusaurusContext();
+  return (
+    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <div className="container">
+        <h1 className={clsx("hero__title", styles.heroTitle)}>{siteConfig.title}</h1>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
+      </div>
+    </header>
+  );
+}
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <LayoutProviders>
-      <Navbar />
-      <Homepage />
-    </LayoutProviders>
-
+    <Layout
+      title={`${siteConfig.title}`}
+      description="Description will go into a meta tag in <head />">
+      <HomepageHeader />
+    </Layout>
   );
 }
