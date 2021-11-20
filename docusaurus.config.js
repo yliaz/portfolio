@@ -133,31 +133,6 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: '去哪里找我？',
-            items: [
-              {
-                label: 'Github',
-                href: 'https://github.com/yliaz',
-              },
-              {
-                label: '我的 Notion 主页',
-                href: 'https://zhuye.site',
-              },
-              {
-                label: '掘金',
-                href: 'https://juejin.cn/user/2911162522934215/posts',
-              },
-              {
-                label: '语雀',
-                href: 'https://www.yuque.com/gangafengliu',
-              },
-              {
-                label: 'Bilibili',
-                href: 'https://space.bilibili.com/325194728',
-              },
-            ],
-          },
-          {
             title: '我的开源贡献',
             items: [
               {
@@ -186,7 +161,32 @@ const config = {
                 href: 'https://github.com/yliaz/pure-css-sponge-bob-friends',
               }
             ]
-          }
+          },
+          {
+            title: '去哪里找我？',
+            items: [
+              {
+                label: 'Github',
+                href: 'https://github.com/yliaz',
+              },
+              {
+                label: '我的 Notion 主页',
+                href: 'https://zhuye.site',
+              },
+              {
+                label: '掘金',
+                href: 'https://juejin.cn/user/2911162522934215/posts',
+              },
+              {
+                label: '语雀',
+                href: 'https://www.yuque.com/gangafengliu',
+              },
+              {
+                label: 'Bilibili',
+                href: 'https://space.bilibili.com/325194728',
+              },
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} 朱烨的主页 Built with Docusaurus.`,
       },
