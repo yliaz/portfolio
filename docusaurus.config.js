@@ -4,6 +4,20 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+// Reverse the sidebar items ordering (including nested category items)
+function reverseSidebarItems(items) {
+  // Reverse items in categories
+  const result = items.map((item) => {
+    if (item.type === 'category') {
+      return {...item, items: reverseSidebarItems(item.items)};
+    }
+    return item;
+  });
+  // Reverse items at current level
+  result.reverse();
+  return result;
+}
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ZHUYE',
@@ -23,6 +37,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
           // Please change this to your repo.
           // editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
         },
@@ -45,15 +61,15 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'blog/example-01',
+            docId: 'blog/git/git-local',
             position: 'left',
             label: '技术博客',
           },
           {
             type: 'doc',
-            docId: 'experience/docusaurus/introduction',
+            docId: 'tutorial/docusaurus/introduction',
             position: 'left',
-            label: '经验总结',
+            label: '教程',
           },
           {
             type: 'doc',
@@ -109,7 +125,7 @@ const config = {
                 'aria-label': 'Wechat Qrcode',
               },
             ]
-          }
+          },
         ],
         
       },
@@ -178,6 +194,16 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      zoom: {
+        selector: '.markdown :not(em) > img',
+        config: {
+          // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+          background: {
+            light: 'rgb(255, 255, 255)',
+            dark: 'rgb(50, 50, 50)'
+          }
+        }
+      }
     }),
 
   i18n: {
@@ -189,7 +215,8 @@ const config = {
     [require.resolve('docusaurus-lunr-search'), {
       languages: ['en', 'zh']
     }],
-    'docusaurus-plugin-sass'
+    'docusaurus-plugin-sass',
+    require.resolve('docusaurus-plugin-image-zoom'),
   ]
 };
 

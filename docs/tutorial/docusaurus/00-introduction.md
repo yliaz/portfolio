@@ -1,6 +1,9 @@
 ---
-title: 使用 Docusaurus 构建个人/公开知识库
+title: 介绍
+image: https://zhuye-1308301598.file.myqcloud.com/icon/icons/docusaurus.png
 ---
+
+# ![](https://zhuye-1308301598.file.myqcloud.com/icons/docusaurus.png) 介绍
 
 在这个系列里，我们将使用 [Docusaurus](https://www.docusaurus.cn/) 来构建一个知识库。
 

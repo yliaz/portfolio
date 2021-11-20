@@ -52,6 +52,12 @@
 
 .markdown h1:first-child {
   --ifm-h1-font-size: 2rem;
+  display: flex;
+  align-items: center;
+  img {
+    width: 36px;
+    margin-right: 10px;
+  }
 }
 
 .markdown h2 {
@@ -156,4 +162,9 @@ html[data-theme='dark'] .header-github-link:before {
 
 .navbar__search {
   margin-left: 20px;
+}
+
+.markdown code {
+  color: var(--ifm-color-primary-dark);
+  border: 0.1rem solid transparent;
 }

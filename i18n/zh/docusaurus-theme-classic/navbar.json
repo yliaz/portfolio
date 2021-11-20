@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "朱烨的主页",
+    "message": "ZHUYE",
     "description": "The title in the navbar"
   },
   "item.label.技术博客": {
-    "message": "技术博客",
+    "message": "博客",
     "description": "Navbar item with label 技术博客"
   },
   "item.label.经验总结": {
-    "message": "经验总结",
+    "message": "教程",
     "description": "Navbar item with label 经验总结"
   },
   "item.label.翻译": {

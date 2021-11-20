@@ -2,6 +2,8 @@
 title: 选购域名
 ---
 
+# ![](https://zhuye-1308301598.file.myqcloud.com/icons/domain.png) 选购域名
+
 想要构建一个网站，必不可少的两样东西就是域名和一台服务器，这一节我们将会介绍如何购买域名，关于[服务器的购买和配置](02-buy-server.md)请查看下一章节。
 
 一般我们可以在[阿里云](https://wanwang.aliyun.com/domain)或者[腾讯云](https://dnspod.cloud.tencent.com/)购买自己想要的域名，直接进入对应的页面，搜索下单即可。
