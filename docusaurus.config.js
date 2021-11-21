@@ -1,5 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
+const path = require('path');
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
@@ -203,9 +204,6 @@ const config = {
             dark: 'rgb(50, 50, 50)'
           }
         }
-      },
-      baiduConfig: {
-        hashID: '869dd616320d0b1769bed343665c0940'
       },
     }),
 
