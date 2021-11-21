@@ -203,7 +203,10 @@ const config = {
             dark: 'rgb(50, 50, 50)'
           }
         }
-      }
+      },
+      baiduConfig: {
+        hashID: '869dd616320d0b1769bed343665c0940'
+      },
     }),
 
   i18n: {
@@ -217,6 +220,7 @@ const config = {
     }],
     'docusaurus-plugin-sass',
     require.resolve('docusaurus-plugin-image-zoom'),
+    './plugin/baidu-analysis'
   ]
 };
 
