@@ -7882,7 +7882,7 @@ unist-util-visit-parents@^3.0.0:
     "@types/unist" "^2.0.0"
     unist-util-is "^4.0.0"
 
-unist-util-visit@2.0.3, unist-util-visit@^2.0.0, unist-util-visit@^2.0.1, unist-util-visit@^2.0.2, unist-util-visit@^2.0.3:
+unist-util-visit@2, unist-util-visit@2.0.3, unist-util-visit@^2.0.0, unist-util-visit@^2.0.1, unist-util-visit@^2.0.2, unist-util-visit@^2.0.3:
   version "2.0.3"
   resolved "https://registry.npmmirror.com/unist-util-visit/download/unist-util-visit-2.0.3.tgz?cache=0&sync_timestamp=1632405194557&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Funist-util-visit%2Fdownload%2Funist-util-visit-2.0.3.tgz#c3703893146df47203bb8a9795af47d7b971208c"
   integrity sha1-w3A4kxRt9HIDu4qXla9H17lxIIw=

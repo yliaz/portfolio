@@ -1,9 +1,10 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-const path = require('path');
-
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+
+// Custom plugins
+const remarkVideoSupport = require('./remark/video-support')
 
 // Reverse the sidebar items ordering (including nested category items)
 function reverseSidebarItems(items) {
@@ -40,6 +41,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
+          remarkPlugins: [remarkVideoSupport]
           // Please change this to your repo.
           // editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
         },
