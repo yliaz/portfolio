@@ -148,12 +148,20 @@ const sidebars = {
     {
       type: 'category',
       label: '前端面试刷题',
-      items: ['interview/example-04'],
+      items: [
+        {
+          type: 'category',
+          label: 'HTML',
+          items: [
+            'interview/frontend/html/doctype'
+          ]
+        }
+      ],
     },
     {
       type: 'category',
-      label: '英语面试技巧',
-      items: ['interview/example-04'],
+      label: '英语面试句型',
+      items: ['interview/english/small-talk'],
     },
   ],
   leetcodeSideBar: [

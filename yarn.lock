@@ -4408,6 +4408,11 @@ hpack.js@^2.1.6:
     readable-stream "^2.0.1"
     wbuf "^1.1.0"
 
+html-element-attributes@^2.0.0:
+  version "2.3.0"
+  resolved "https://registry.npmmirror.com/html-element-attributes/download/html-element-attributes-2.3.0.tgz#a192ac90a457be9f1e2cc9ab69000ee89be74aa6"
+  integrity sha1-oZKskKRXvp8eLMmraQAO6JvnSqY=
+
 html-entities@^2.3.2:
   version "2.3.2"
   resolved "https://registry.nlark.com/html-entities/download/html-entities-2.3.2.tgz#760b404685cb1d794e4f4b744332e3b00dcfe488"
@@ -4940,7 +4945,7 @@ is-weakref@^1.0.1:
   dependencies:
     call-bind "^1.0.0"
 
-is-whitespace-character@^1.0.0:
+is-whitespace-character@^1.0.0, is-whitespace-character@^1.0.4:
   version "1.0.4"
   resolved "https://registry.npmmirror.com/is-whitespace-character/download/is-whitespace-character-1.0.4.tgz#0858edd94a95594c7c9dd0b5c174ec6e45ee4aa7"
   integrity sha1-CFjt2UqVWUx8ndC1wXTsbkXuSqc=
@@ -5319,6 +5324,11 @@ markdown-escapes@^1.0.0:
   resolved "https://registry.npmmirror.com/markdown-escapes/download/markdown-escapes-1.0.4.tgz#c95415ef451499d7602b91095f3c8e8975f78535"
   integrity sha1-yVQV70UUmddgK5EJXzyOiXX3hTU=
 
+md-attr-parser@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.npmmirror.com/md-attr-parser/download/md-attr-parser-1.3.0.tgz#23e1d507858746d4e84beb244c089799979cfce8"
+  integrity sha1-I+HVB4WHRtToS+skTAiXmZec/Og=
+
 mdast-squeeze-paragraphs@^4.0.0:
   version "4.0.0"
   resolved "https://registry.nlark.com/mdast-squeeze-paragraphs/download/mdast-squeeze-paragraphs-4.0.0.tgz#7c4c114679c3bee27ef10b58e2e015be79f1ef97"
@@ -5332,6 +5342,15 @@ mdast-util-definitions@^4.0.0:
   integrity sha1-xcGoTbeZFztNz3ZDzamZ5EDCTbI=
   dependencies:
     unist-util-visit "^2.0.0"
+
+mdast-util-find-and-replace@1:
+  version "1.1.1"
+  resolved "https://registry.nlark.com/mdast-util-find-and-replace/download/mdast-util-find-and-replace-1.1.1.tgz#b7db1e873f96f66588c321f1363069abf607d1b5"
+  integrity sha1-t9sehz+W9mWIwyHxNjBpq/YH0bU=
+  dependencies:
+    escape-string-regexp "^4.0.0"
+    unist-util-is "^4.0.0"
+    unist-util-visit-parents "^3.0.0"
 
 mdast-util-to-hast@10.0.1:
   version "10.0.1"
@@ -6823,6 +6842,13 @@ relateurl@^0.2.7:
   resolved "https://registry.nlark.com/relateurl/download/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
   integrity sha1-VNvzd+UUQKypCkzSdGANP/LYiKk=
 
+remark-abbr@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.npmmirror.com/remark-abbr/download/remark-abbr-1.4.1.tgz#3813ff894acd8e66bc030e25c436c0d4525a2df4"
+  integrity sha1-OBP/iUrNjma8Aw4lxDbA1FJaLfQ=
+  dependencies:
+    unist-util-visit "^2.0.3"
+
 remark-admonitions@^1.2.1:
   version "1.2.1"
   resolved "https://registry.npm.taobao.org/remark-admonitions/download/remark-admonitions-1.2.1.tgz#87caa1a442aa7b4c0cafa04798ed58a342307870"
@@ -6831,6 +6857,16 @@ remark-admonitions@^1.2.1:
     rehype-parse "^6.0.2"
     unified "^8.4.2"
     unist-util-visit "^2.0.1"
+
+remark-attr@^0.11.1:
+  version "0.11.1"
+  resolved "https://registry.npmmirror.com/remark-attr/download/remark-attr-0.11.1.tgz#4f2f96b16316be2887a24662116756c88ee36f15"
+  integrity sha1-Ty+WsWMWviiHokZiEWdWyI7jbxU=
+  dependencies:
+    html-element-attributes "^2.0.0"
+    is-whitespace-character "^1.0.4"
+    md-attr-parser "^1.3.0"
+    remark-footnotes "^1.0.0"
 
 remark-emoji@^2.1.0:
   version "2.2.0"
@@ -6845,6 +6881,11 @@ remark-footnotes@2.0.0:
   version "2.0.0"
   resolved "https://registry.nlark.com/remark-footnotes/download/remark-footnotes-2.0.0.tgz#9001c4c2ffebba55695d2dd80ffb8b82f7e6303f"
   integrity sha1-kAHEwv/rulVpXS3YD/uLgvfmMD8=
+
+remark-footnotes@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.nlark.com/remark-footnotes/download/remark-footnotes-1.0.0.tgz?cache=0&sync_timestamp=1629616719545&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fremark-footnotes%2Fdownload%2Fremark-footnotes-1.0.0.tgz#9c7a97f9a89397858a50033373020b1ea2aad011"
+  integrity sha1-nHqX+aiTl4WKUAMzcwILHqKq0BE=
 
 remark-mdx-remove-exports@^1.6.22:
   version "1.6.22"

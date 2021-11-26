@@ -1,0 +1,15 @@
+---
+title: Doctype
+---
+
+import BrowserWindow from "../../../../src/components/BrowserWindow/BrowserWindow";
+
+# Doctype
+
+```mdx-code-block
+<BrowserWindow minHeight="" url="">
+  DOCTYPE 声明一般位于文档的第一行，它的作用主要有两个：
+  - 规范浏览器的行为，告知浏览器需要使用标准模式来解析文档，否则浏览器将以怪异模式（quirks mode）进行解析。
+  - 可以加入对特定 DTD 的引用（针对 `HTML(≤4)` ，基于 `SGML`），由于 `HTML5` 并不基于 `SGML`，所以没有 DTD 一说，因此 DOCTYPE 声明简化为：
+</BrowserWindow>
+```

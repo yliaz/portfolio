@@ -1,4 +1,3 @@
-// const visit = import("unist-util-visit");
 const visit = require('unist-util-visit');
 
 const plugin = (options) => {
