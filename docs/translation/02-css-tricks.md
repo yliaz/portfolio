@@ -5,7 +5,7 @@ title: 6个你应该知道的实用CSS小技巧
 # 【译】6个你应该知道的实用CSS小技巧
 
 > - 原文作者：Mehdi Aoussiad
-> - 原文链接：[6 Useful Pure CSS Tips that You Should Know](javascript.plainenglish.io/6-useful-pure-css-tips-that-you-should-know-647ccaff201e)
+> - 原文链接：[6 Useful Pure CSS Tips that You Should Know](https://javascript.plainenglish.io/6-useful-pure-css-tips-that-you-should-know-647ccaff201e)
 
 CSS是一种很棒的样式表语言，我们可以使用它来改变网站样式，或是制作响应式的网站。它是所有Web开发人员必须掌握的技能，因为每个网站或Web应用程序都会使用CSS。
 
