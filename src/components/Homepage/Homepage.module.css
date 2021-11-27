@@ -4,8 +4,30 @@
 }
 
 .hugeName {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.logo {
+    cursor: pointer;
+    max-width: 120px;
+    display: flex;
+}
+
+.logo svg {
     color: var(--ifm-color-primary);
-    font-size: 8rem;
-    font-family: kbdunktank, serif;
-    display: inline-flex;
+    height: 40px;
+}
+
+.title {
+    max-width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.title svg {
+    cursor: pointer;
+    width: 80%;
+    height: 100%;
 }
