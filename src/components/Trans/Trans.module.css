@@ -1,9 +1,4 @@
 .zhContent {
-    cursor: pointer;
-}
-
-.zhContent:hover {
-    color: var(--ifm-color-primary-lightest);
 }
 
 .enContent {

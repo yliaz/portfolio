@@ -142,7 +142,9 @@ const sidebars = {
     },
   ],
   translationSideBar: [
-    'translation/example-03'
+    'translation/js-shorthand',
+    'translation/css-tricks',
+    'translation/console-log'
   ],
   interviewSideBar: [
     {

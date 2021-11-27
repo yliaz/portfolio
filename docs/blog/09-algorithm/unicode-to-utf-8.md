@@ -22,7 +22,7 @@ tags:
 "xxxxx"从二进制数字串尾部依次取得，若高位不足则补"0"。
 
 | **Unicode数值范围（16进制）** |     **UTF-8编码规则（二进制）**     |
-| :---------------------------: | :---------------------------------: |
+| :---------------------------: | ----------------------------------: |
 |     0000 0000 - 0000 007F     |              0xxxxxxx               |
 |     0000 0080 - 0000 07FF     |          110xxxxx 10xxxxxx          |
 |     0000 0800 - 0000 FFFF     |     1110xxxx 10xxxxxx 10xxxxxx      |
@@ -32,8 +32,7 @@ tags:
 
 ### 举个例子 🌰
 
-<img src="https://zhuye-1308301598.file.myqcloud.com/markdown/unicode-to-utf-8.png" style={{maxWidth: "400px"}}  alt=""/>
-
+![img](https://zhuye-1308301598.file.myqcloud.com/markdown/unicode-to-utf-8.png){ width=400 }
 
 ## 源代码（附注释）
 

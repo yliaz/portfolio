@@ -1,0 +1,9 @@
+.wrapper {
+    display: inline-flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.tab {
+    margin-right: 10px;
+}

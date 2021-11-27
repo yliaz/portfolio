@@ -1,0 +1,420 @@
+---
+title: 20个JS简写小技巧，助你高效敲代码
+---
+
+# 【译】20个JS简写小技巧，助你高效敲代码
+
+> - **原文作者：** Amitav Mishra
+> - **原文链接：** [20 JavaScript Shorthand Techniques that will save your time](https://javascript.plainenglish.io/20-javascript-shorthand-techniques-that-will-save-your-time-f1671aab405f)
+
+任何一种编程语言的简写小技巧都是为了帮助你写出更简洁、更完善的代码，让你用更少的编码实现你的需求。接下来让我们逐一讨论一下JavaScript中的一些简写小技巧。
+
+### 1. 声明多个变量
+
+```javascript
+// 常规写法
+let x; 
+let y = 20; 
+
+// 简写
+let x, y = 20;
+```
+
+
+### 2. 为多个变量赋值
+
+我们可以使用**数组解构赋值**，仅用一行代码实现为多个变量赋值。
+
+```javascript
+// 常规写法 
+let a, b, c; 
+a = 5; 
+b = 8; 
+c = 12;
+ 
+// 简写
+let [a, b, c] = [5, 8, 12];
+```
+
+
+### 3. 恰当使用三元运算符
+
+我们可以在这里用三元运算符（也称条件运算符）节省5行代码。
+
+```javascript
+// 常规写法
+let marks = 26; 
+let result; 
+if(marks >= 30){
+ result = 'Pass'; 
+}else{ 
+ result = 'Fail'; 
+} 
+// 简写
+let result = marks >= 30 ? 'Pass' : 'Fail';
+```
+
+
+### 4. 指定默认值
+
+我们可以使用「[OR ( || ) 短路求值](https://zh.wikipedia.org/wiki/%E7%9F%AD%E8%B7%AF%E6%B1%82%E5%80%BC)」的逻辑，来给定一个默认值。当 `||` 我们的期望值是一个「[falsy](https://developer.mozilla.org/zh-CN/docs/Glossary/Falsy)」值的时候，整个表达式的值便会取到我们给定的默认值。
+
+```javascript
+// 常规写法
+let imagePath; 
+let path = getImagePath(); 
+if(path !== null && path !== undefined && path !== '') { 
+  imagePath = path; 
+} else { 
+  imagePath = 'default.jpg'; 
+} 
+
+// 简写
+let imagePath = getImagePath() || 'default.jpg';
+```
+
+
+### 5. AND(&&)短路求值
+
+如果你只在一个变量为真的情况下才调用某个函数，那么你可以用「AND(&&)短路求值」的逻辑来代替。
+
+```javascript
+// 常规写法
+if (isLoggedin) {
+ goToHomepage(); 
+} 
+
+// 简写
+isLoggedin && goToHomepage();
+```
+
+在React中，当你想有条件地渲染某个组件时，可以尝试使用AND(&&)这种简写方式。例如下面这个例子👇
+
+```javascript
+<div> { this.state.isLoading && <Loading /> } </div>
+```
+
+> 译者注：表达式的值为0这种特殊的falsy值时，请谨慎考虑使用
+
+
+
+### 6. 交换两个变量的值
+
+当我们想交换两个变量的值时，经常会采取引入第三个变量的方法。其实我们可以通过数组解构赋值轻松地交换两个变量。
+
+```javascript
+let x = 'Hello', y = 55; 
+
+// 常规写法，引入第三个变量
+const temp = x; 
+x = y; 
+y = temp; 
+
+// 简写，使用数组解构赋值
+[x, y] = [y, x];
+```
+
+
+### 7. 善用箭头函数
+
+```javascript
+// 常规写法
+function add(num1, num2) { 
+   return num1 + num2; 
+} 
+
+// 简写
+const add = (num1, num2) => num1 + num2;
+```
+
+> 参考[「箭头函数」](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
+
+
+### 8. 模板字符串
+
+我们通常使用`+`运算符来连接字符串和其他类型的变量。有了ES6模板字符串，我们可以用更简单的方式来组合字符串。
+
+```javascript
+// 常规写法 
+console.log('You got a missed call from ' + number + ' at ' + time); 
+
+// 简写
+console.log(`You got a missed call from ${number} at ${time}`);
+```
+
+
+### 9. 多行字符串
+
+对于多行字符串，我们通常使用+操作符和一个新的换行符（\n）拼接实现。其实我们可以通过使用反引号（`）来更简单地实现。
+
+```javascript
+// 常规写法
+console.log('JavaScript, often abbreviated as JS, is a\n' +             
+            'programming language that conforms to the \n' + 
+						'ECMAScript specification. JavaScript is high-level,\n' + 
+						'often just-in-time compiled, and multi-paradigm.' ); 
+
+// 简写
+console.log(`JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm.`);
+```
+
+
+### 10. 多条件检查
+
+对于多值匹配，我们可以把所有的值放在数组中，使用数组提供的`indexOf()`或`includes()`方法来简写。
+
+```javascript
+// 常规写法
+if (value === 1 || value === 'one' || value === 2 || value === 'two') { 
+     // 执行一些代码
+} 
+
+// 简写1
+if ([1, 'one', 2, 'two'].indexOf(value) >= 0) { 
+    // 执行一些代码 
+}
+// 简写2
+if ([1, 'one', 2, 'two'].includes(value)) { 
+    // 执行一些代码 
+}
+```
+
+
+### 11. 对象属性分配
+
+如果变量名和对象的属性名相同，那么我们可以在对象的中只写变量名，而不用同时写出属性名和属性值（变量的值）。JavaScript会自动将属性名设置为与变量名相同，并将属性值分配为变量值。
+
+```javascript
+let firstname = 'Amitav'; 
+let lastname = 'Mishra'; 
+
+// 常规写法 
+let obj = {firstname: firstname, lastname: lastname}; 
+
+// 简写 
+let obj = {firstname, lastname};
+```
+
+
+### 12. 字符串（String）转为数字（Number）
+
+有一些内置方法，如 `parseInt` 和 `parseFloat` ，可以将字符串转换为数字。我们也可以通过简单地在字符串值前面提供一个一元运算符 `+` 来实现。
+
+```javascript
+// 常规写法
+let total = parseInt('453'); 
+let average = parseFloat('42.6'); 
+
+// 简写
+let total = +'453'; 
+let average = +'42.6';
+```
+
+
+### 13. 多次重复一个字符串
+
+要将一个字符串重复指定的次数，你可以使用for循环。但使用repeat()方法，我们可以在一行中完成。
+
+```javascript
+// 常规写法
+let str = ''; 
+for(let i = 0; i < 5; i ++) { 
+  str += 'Hello '; 
+} 
+console.log(str); // Hello Hello Hello Hello Hello 
+
+// 简写
+'Hello '.repeat(5);
+```
+
+> Tip: Want to apologize to someone by sending 100 times “sorry”? Try it with repeat() method. If you want to repeat each string in a new line, then add \n to the string.
+>
+> 想对某人说100次对不起？试试 `repeat()` 方法吧。如果你希望每一个字符串占一行，那么就在字符串结尾添加换行符（ `\n`）。
+
+```javascript
+// 想跟你说100声抱歉！
+'sorry\n'.repeat(100);
+```
+
+
+### 14. 幂的力量！
+
+我们可以使用 `Math.pow()` 方法来求一个数字的幂。有一个更简洁的语法，那就是双星号（`**`）。
+
+```javascript
+// 常规写法
+const power = Math.pow(4, 3); // 64 
+
+// 简写
+const power = 4**3; // 64
+```
+
+
+### 15. 双NOT位运算符（~~）？
+
+双NOT位运算符（`~~`）是 `Math.floor()` 方法的替代品。
+
+```javascript
+// 常规写法
+const floor = Math.floor(6.8); // 6 
+
+// 简写
+const floor = ~~6.8; // 6
+```
+
+> Improvement from comment by Caleb: 
+> The double NOT bitwise operator approach only works for 32 bit integers i.e (2**31)-1 = 2147483647. So for any number higher than 2147483647, bitwise operator (~~) will give wrong results, so recommended to use Math.floor() in such case.**
+>
+> **感谢Caleb的提醒：
+> 双NOT位运算符方法**只适用于32位整数**，即(2**31)-1=2147483647。所以对于任何大于2147483647的数字，位运算符(~~)会给出错误的结果，所以建议在这种情况下使用Math.floor()。
+
+
+
+### 16. 找出数组中的最大最小值
+
+我们可以使用for循环来遍历数组，找到最大值或最小值。也可以使用Array.reduce()方法来寻找数组中的最大和最小值。
+
+但是使用展开操作符（`...`）我们可以，我们可以用一行代码就实现这个需求。
+
+```javascript
+// 简写
+const arr = [2, 8, 15, 4]; 
+Math.max(...arr);  // 最大值 15 
+Math.min(...arr);  // 最小值 2
+```
+
+
+### 17. 关于For循环
+
+要遍历一个数组，我们通常使用传统的 `for` 循环。我们可以利用 `for...of` 的方式来遍历一个数组。如果要访问数组每个值的索引，我们可以使用 `for...in` 循环。
+
+```javascript
+let arr = [10, 20, 30, 40]; 
+
+// 常规写法，for循环
+for (let i = 0; i < arr.length; i++) { 
+  console.log(arr[i]); 
+} 
+
+// 简写
+
+// for...of循环
+for (const val of arr) { 
+  console.log(val); 
+} 
+
+// for...in循环
+for (const index in arr) { 
+  console.log(`index: ${index} and value: ${arr[index]}`); 
+}
+```
+
+我们还可以使用 `for...in` 循环来遍历对象的属性。
+
+```javascript
+let obj = {x: 20, y: 50}; 
+for (const key in obj) { 
+  console.log(obj[key]); 
+}
+```
+
+> 参考：[JavaScript中遍历对象和数组的几种不同的方式](https://jscurious.com/different-ways-to-iterate-through-objects-and-arrays-in-javascript/)
+
+
+
+### 18. 合并数组
+
+```javascript
+let arr1 = [20, 30]; 
+
+// 常规写法
+let arr2 = arr1.concat([60, 80]); 
+// [20, 30, 60, 80] 
+
+// 简写
+let arr2 = [...arr1, 60, 80]; 
+// [20, 30, 60, 80]
+```
+
+
+### 19. 多层次对象的深拷贝
+
+要对一个多层次的对象实现深拷贝，我们可以遍历其每个属性，检查当前属性是否包含一个对象。如果是，则递归调用同一个函数，并将当前属性值（即嵌套对象）作为函数的参数传递进去。
+
+如果我们的对象不包含**函数**、**undefined**、**NaN**或**Date**等值，我们也可以使用 `JSON.stringify()` 和 `JSON.parse()` 来实现。
+
+如果我们的对象是单层对象，即没有嵌套对象，那么我们也可以使用展开操作符（`...`）进行深拷贝。
+
+```javascript
+let obj = {x: 20, y: {z: 30}}; 
+
+// 常规写法，递归
+const makeDeepClone = (obj) => { 
+  let newObject = {}; 
+  Object.keys(obj).map(key => { 
+    if(typeof obj[key] === 'object'){ 
+      newObject[key] = makeDeepClone(obj[key]); 
+    } else { 
+      newObject[key] = obj[key]; 
+    } 
+  }); 
+ return newObject; 
+} 
+const cloneObj = makeDeepClone(obj); 
+
+// 特殊情况下(对象中属性值没有函数、undefined或NaN的情况下)的简写
+const cloneObj = JSON.parse(JSON.stringify(obj));
+
+// 单层对象（无嵌套对象）情况下的简写
+let obj = {x: 20, y: 'hello'};
+const cloneObj = {...obj};
+```
+
+> 感谢评论区中的提醒：
+> 如果你的对象属性中包含**函数**、**undefined**或**NaN**作为属性值时，**JSON.parse(JSON.stringify(obj)) **这种简写将会失效。因为当你对对象进行 **JSON.stringify** 时，包含函数、undefined或NaN作为值的属性会从对象中被删除。
+> 所以当你的对象只包含字符串和数字时，才可以使用 **JSON.parse(JSON.stringify(obj))** 。
+
+
+
+> 参考：[JSON.parse() 和 JSON.stringify()](https://jscurious.com/difference-between-json-parse-and-json-stringify/)
+
+
+
+### 20. 获取字符串中的某个字符
+
+```javascript
+let str = 'jscurious.com'; 
+
+// 常规写法
+str.charAt(2); // c 
+
+// 简写
+str[2]; // c
+```
+
+**这些简写小技巧中的一些似乎不太适合在项目中使用，但知道总比不知道强。**
+
+**好编码，编好码，编码好！**
+
+
+
+### 【附】专有名词总结：
+
+|         **中文**         |            **英文**            |
+| :----------------------: | :----------------------------: |
+|         简写技巧         |      shorthand techniques      |
+|           赋值           |          assign value          |
+|       数组解构赋值       | array destructuring assignment |
+|        条件操作符        |      conditional operator      |
+|        展开操作符        |        spread operater         |
+|          深拷贝          |           deep clone           |
+|          期望值          |         expected value         |
+|         多值匹配         |    multiple value matching     |
+|         内置方法         |        built in method         |
+|         递归调用         |         recursive call         |
+|         嵌套对象         |         nested object          |
+| 模板字符串（模板字面量） |       template literals        |
+
+
+

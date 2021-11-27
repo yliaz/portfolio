@@ -6,6 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // Remark plugins
 const remarkVideoSupport = require('./remark/video-support')
 const remarkAbbr = require('remark-abbr')
+const remarkAttr = require('remark-attr')
 
 // Reverse the sidebar items ordering (including nested category items)
 function reverseSidebarItems(items) {
@@ -40,7 +41,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          remarkPlugins: [remarkVideoSupport, remarkAbbr],
+          remarkPlugins: [remarkVideoSupport, remarkAbbr, remarkAttr],
           // showLastUpdateTime: true,
           // showLastUpdateAuthor: true,
           // editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
@@ -76,7 +77,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'translation/example-03',
+            docId: 'translation/js-shorthand',
             position: 'left',
             label: '翻译',
           },
