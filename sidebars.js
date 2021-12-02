@@ -149,13 +149,15 @@ const sidebars = {
   interviewSideBar: [
     {
       type: 'category',
-      label: '前端面试刷题',
+      label: '前端面试刷题(牛客)',
       items: [
         {
           type: 'category',
           label: 'HTML',
           items: [
-            'interview/frontend/html/doctype'
+            'interview/frontend/html/doctype',
+            'interview/frontend/html/element',
+            'interview/frontend/html/meta'
           ]
         }
       ],
@@ -163,11 +165,15 @@ const sidebars = {
     {
       type: 'category',
       label: '英语面试句型',
-      items: ['interview/english/small-talk'],
+      items: [
+        'interview/english/small-talk',
+        'interview/english/self-introduction',
+        'interview/english/education'
+      ],
     },
   ],
   leetcodeSideBar: [
-    'leetcode/example-05'
+    'leetcode/two-sum'
   ],
   readingNoteSideBar: [
     {

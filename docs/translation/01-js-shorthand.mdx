@@ -2,12 +2,17 @@
 title: 20个JS简写小技巧，助你高效敲代码
 ---
 
+import LanguageSwitch from "../../src/components/LanguageSwitch";
+
 # 【译】20个JS简写小技巧，助你高效敲代码
+
+<LanguageSwitch />
 
 > - **原文作者：** Amitav Mishra
 > - **原文链接：** [20 JavaScript Shorthand Techniques that will save your time](https://javascript.plainenglish.io/20-javascript-shorthand-techniques-that-will-save-your-time-f1671aab405f)
 
-任何一种编程语言的简写小技巧都是为了帮助你写出更简洁、更完善的代码，让你用更少的编码实现你的需求。接下来让我们逐一讨论一下JavaScript中的一些简写小技巧。
+<- 任何一种编程语言的简写小技巧都是为了帮助你写出更简洁、更完善的代码，让你用更少的编码实现你的需求。接下来让我们逐一讨论一下JavaScript中的一些简写小技巧。 <-
+-> The shorthand techniques of any programming language help you to write more clean and optimized code and lets you achieve your goal with less coding. Let’s discuss some of the shorthand techniques of JavaScript one by one. ->
 
 ### 1. 声明多个变量
 
@@ -23,7 +28,8 @@ let x, y = 20;
 
 ### 2. 为多个变量赋值
 
-我们可以使用**数组解构赋值**，仅用一行代码实现为多个变量赋值。
+<- 我们可以使用**数组解构赋值**，仅用一行代码实现为多个变量赋值。 <-
+-> We can assign values to multiple variables in one line with array destructuring. ->
 
 ```javascript
 // 常规写法 
@@ -39,7 +45,8 @@ let [a, b, c] = [5, 8, 12];
 
 ### 3. 恰当使用三元运算符
 
-我们可以在这里用三元运算符（也称条件运算符）节省5行代码。
+<- 我们可以在这里用三元运算符（也称条件运算符）节省5行代码。 <-
+-> We can save 5 lines of code here with ternary (conditional) operator. ->
 
 ```javascript
 // 常规写法
@@ -57,7 +64,8 @@ let result = marks >= 30 ? 'Pass' : 'Fail';
 
 ### 4. 指定默认值
 
-我们可以使用「[OR ( || ) 短路求值](https://zh.wikipedia.org/wiki/%E7%9F%AD%E8%B7%AF%E6%B1%82%E5%80%BC)」的逻辑，来给定一个默认值。当 `||` 我们的期望值是一个「[falsy](https://developer.mozilla.org/zh-CN/docs/Glossary/Falsy)」值的时候，整个表达式的值便会取到我们给定的默认值。
+<- 我们可以使用「[OR ( || ) 短路求值](https://zh.wikipedia.org/wiki/%E7%9F%AD%E8%B7%AF%E6%B1%82%E5%80%BC)」的逻辑，来给定一个默认值。当 `||` 我们的期望值是一个「[falsy](https://developer.mozilla.org/zh-CN/docs/Glossary/Falsy)」值的时候，整个表达式的值便会取到我们给定的默认值。 <-
+-> We can use OR(||) short circuit evaluation to assign a default value to a variable in case the expected value found falsy. ->
 
 ```javascript
 // 常规写法
@@ -76,7 +84,8 @@ let imagePath = getImagePath() || 'default.jpg';
 
 ### 5. AND(&&)短路求值
 
-如果你只在一个变量为真的情况下才调用某个函数，那么你可以用「AND(&&)短路求值」的逻辑来代替。
+<- 如果你只在一个变量为真的情况下才调用某个函数，那么你可以用「AND(&&)短路求值」的逻辑来代替。 <-
+-> If you are calling a function only if a variable is true, then you can use AND(&&) short circuit as an alternative for this. ->
 
 ```javascript
 // 常规写法
@@ -88,7 +97,8 @@ if (isLoggedin) {
 isLoggedin && goToHomepage();
 ```
 
-在React中，当你想有条件地渲染某个组件时，可以尝试使用AND(&&)这种简写方式。例如下面这个例子👇
+<- 在React中，当你想有条件地渲染某个组件时，可以尝试使用AND(&&)这种简写方式。例如下面这个例子👇 <-
+-> The AND(&&) short circuit shorthand is more useful in React when you want to conditionally render a component. For example: ->
 
 ```javascript
 <div> { this.state.isLoading && <Loading /> } </div>
@@ -100,7 +110,8 @@ isLoggedin && goToHomepage();
 
 ### 6. 交换两个变量的值
 
-当我们想交换两个变量的值时，经常会采取引入第三个变量的方法。其实我们可以通过数组解构赋值轻松地交换两个变量。
+<- 当我们想交换两个变量的值时，经常会采取引入第三个变量的方法。其实我们可以通过数组解构赋值轻松地交换两个变量。 <-
+-> To swap two variables, we often use a third variable. We can swap two variables easily with array destructuring assignment. ->
 
 ```javascript
 let x = 'Hello', y = 55; 
@@ -133,7 +144,8 @@ const add = (num1, num2) => num1 + num2;
 
 ### 8. 模板字符串
 
-我们通常使用`+`运算符来连接字符串和其他类型的变量。有了ES6模板字符串，我们可以用更简单的方式来组合字符串。
+<- 我们通常使用`+`运算符来连接字符串和其他类型的变量。有了ES6模板字符串，我们可以用更简单的方式来组合字符串。<-
+-> We normally use + operator to concatenate string values with variables. With ES6 template literals we can do it in a more simple way. ->
 
 ```javascript
 // 常规写法 
@@ -146,7 +158,8 @@ console.log(`You got a missed call from ${number} at ${time}`);
 
 ### 9. 多行字符串
 
-对于多行字符串，我们通常使用+操作符和一个新的换行符（\n）拼接实现。其实我们可以通过使用反引号（`）来更简单地实现。
+<- 对于多行字符串，我们通常使用+操作符和一个新的换行符（\n）拼接实现。其实我们可以通过使用反引号（`）来更简单地实现。<-
+-> For multiline string we normally use + operator with a new line escape sequence (\n). We can do it in an easier way by using backticks (`) ->
 
 ```javascript
 // 常规写法
@@ -162,7 +175,8 @@ console.log(`JavaScript, often abbreviated as JS, is a programming language that
 
 ### 10. 多条件检查
 
-对于多值匹配，我们可以把所有的值放在数组中，使用数组提供的`indexOf()`或`includes()`方法来简写。
+<- 对于多值匹配，我们可以把所有的值放在数组中，使用数组提供的`indexOf()`或`includes()`方法来简写。 <-
+-> For multiple value matching, we can put all values in array and use indexOf() or includes() method. ->
 
 ```javascript
 // 常规写法
@@ -183,7 +197,8 @@ if ([1, 'one', 2, 'two'].includes(value)) {
 
 ### 11. 对象属性分配
 
-如果变量名和对象的属性名相同，那么我们可以在对象的中只写变量名，而不用同时写出属性名和属性值（变量的值）。JavaScript会自动将属性名设置为与变量名相同，并将属性值分配为变量值。
+<- 如果变量名和对象的属性名相同，那么我们可以在对象的中只写变量名，而不用同时写出属性名和属性值（变量的值）。JavaScript会自动将属性名设置为与变量名相同，并将属性值分配为变量值。 <-
+-> If the variable name and object key name is same then we can just mention variable name in object literals instead of both key and value. JavaScript will automatically set the key same as variable name and assign the value as variable value. ->
 
 ```javascript
 let firstname = 'Amitav'; 
@@ -199,7 +214,8 @@ let obj = {firstname, lastname};
 
 ### 12. 字符串（String）转为数字（Number）
 
-有一些内置方法，如 `parseInt` 和 `parseFloat` ，可以将字符串转换为数字。我们也可以通过简单地在字符串值前面提供一个一元运算符 `+` 来实现。
+<- 有一些内置方法，如 `parseInt` 和 `parseFloat` ，可以将字符串转换为数字。我们也可以通过简单地在字符串值前面提供一个一元运算符 `+` 来实现。 <-
+-> There are built in methods like parseInt and parseFloat available to convert a string to number. We can also do this by simply providing a unary operator (+) in front of string value. ->
 
 ```javascript
 // 常规写法
@@ -214,7 +230,8 @@ let average = +'42.6';
 
 ### 13. 多次重复一个字符串
 
-要将一个字符串重复指定的次数，你可以使用for循环。但使用repeat()方法，我们可以在一行中完成。
+<- 要将一个字符串重复指定的次数，你可以使用for循环。但使用repeat()方法，我们可以在一行中完成。<-
+-> To repeat a string for a specified number of time you can use a for loop. But using the repeat() method we can do it in a single line. ->
 
 ```javascript
 // 常规写法
@@ -240,7 +257,8 @@ console.log(str); // Hello Hello Hello Hello Hello
 
 ### 14. 幂的力量！
 
-我们可以使用 `Math.pow()` 方法来求一个数字的幂。有一个更简洁的语法，那就是双星号（`**`）。
+<- 我们可以使用 `Math.pow()` 方法来求一个数字的幂。有一个更简洁的语法，那就是双星号（`**`）。 <-
+-> We can use Math.pow() method to find the power of a number. There is a shorter syntax to do it with double asterik (**). ->
 
 ```javascript
 // 常规写法
@@ -253,7 +271,8 @@ const power = 4**3; // 64
 
 ### 15. 双NOT位运算符（~~）？
 
-双NOT位运算符（`~~`）是 `Math.floor()` 方法的替代品。
+<- 双NOT位运算符（`~~`）是 `Math.floor()` 方法的替代品。 <-
+-> The double NOT bitwise operator is a substitute for Math.floor() method. ->
 
 ```javascript
 // 常规写法
@@ -273,9 +292,11 @@ const floor = ~~6.8; // 6
 
 ### 16. 找出数组中的最大最小值
 
-我们可以使用for循环来遍历数组，找到最大值或最小值。也可以使用Array.reduce()方法来寻找数组中的最大和最小值。
+<- 我们可以使用for循环来遍历数组，找到最大值或最小值。也可以使用Array.reduce()方法来寻找数组中的最大和最小值。 <-
+-> We can use for loop to loop through each value of array and find the max or min value. We can also use the Array.reduce() method to find the max and min number in array. ->
 
-但是使用展开操作符（`...`）我们可以，我们可以用一行代码就实现这个需求。
+<- 但是使用展开操作符（`...`）我们可以，我们可以用一行代码就实现这个需求。<-
+-> But using spread operator we can do it in a single line. ->
 
 ```javascript
 // 简写
@@ -287,7 +308,8 @@ Math.min(...arr);  // 最小值 2
 
 ### 17. 关于For循环
 
-要遍历一个数组，我们通常使用传统的 `for` 循环。我们可以利用 `for...of` 的方式来遍历一个数组。如果要访问数组每个值的索引，我们可以使用 `for...in` 循环。
+<- 要遍历一个数组，我们通常使用传统的 `for` 循环。我们可以利用 `for...of` 的方式来遍历一个数组。如果要访问数组每个值的索引，我们可以使用 `for...in` 循环。 <-
+-> To loop through an array we normally use the traditional for loop. We can make use of the for...of loop to iterate through arrays. To access the index of each value we can use for...in loop. ->
 
 ```javascript
 let arr = [10, 20, 30, 40]; 
@@ -310,7 +332,8 @@ for (const index in arr) {
 }
 ```
 
-我们还可以使用 `for...in` 循环来遍历对象的属性。
+<- 我们还可以使用 `for...in` 循环来遍历对象的属性。<-
+-> We can also loop through object properties using for...in loop. ->
 
 ```javascript
 let obj = {x: 20, y: 50}; 
@@ -340,11 +363,14 @@ let arr2 = [...arr1, 60, 80];
 
 ### 19. 多层次对象的深拷贝
 
-要对一个多层次的对象实现深拷贝，我们可以遍历其每个属性，检查当前属性是否包含一个对象。如果是，则递归调用同一个函数，并将当前属性值（即嵌套对象）作为函数的参数传递进去。
+<- 要对一个多层次的对象实现深拷贝，我们可以遍历其每个属性，检查当前属性是否包含一个对象。如果是，则递归调用同一个函数，并将当前属性值（即嵌套对象）作为函数的参数传递进去。<-
+-> To deep clone a multi-level object, we can iterate through each property and check if the current property contains an object. If yes, then do a recursive call to the same function by passing the current property value (i.e. the nested object). ->
 
-如果我们的对象不包含**函数**、**undefined**、**NaN**或**Date**等值，我们也可以使用 `JSON.stringify()` 和 `JSON.parse()` 来实现。
+<- 如果我们的对象不包含**函数**、**undefined**、**NaN**或**Date**等值，我们也可以使用 `JSON.stringify()` 和 `JSON.parse()` 来实现。<-
+-> We can also do it by using JSON.stringify() and JSON.parse() if our object doesn't contains functions, undefined, NaN or Date as values. ->
 
-如果我们的对象是单层对象，即没有嵌套对象，那么我们也可以使用展开操作符（`...`）进行深拷贝。
+<- 如果我们的对象是单层对象，即没有嵌套对象，那么我们也可以使用展开操作符（`...`）进行深拷贝。<-
+-> If we have single level object i.e no nested object present, then we can deep clone using spread operator also. ->
 
 ```javascript
 let obj = {x: 20, y: {z: 30}}; 
@@ -393,9 +419,11 @@ str.charAt(2); // c
 str[2]; // c
 ```
 
-**这些简写小技巧中的一些似乎不太适合在项目中使用，但知道总比不知道强。**
+<- **这些简写小技巧中的一些似乎不太适合在项目中使用，但知道总比不知道强。** <-
+-> Some of these shorthand techniques may not seems relevant to use in project but it’s not bad to know some extra techniques.  ->
 
-**好编码，编好码，编码好！**
+<- **好编码，编好码，编码好！** <-
+-> Happy coding! ->
 
 
 

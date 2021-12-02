@@ -1,4 +1,8 @@
 @import "homepage";
+@font-face {
+  font-family: 'kbdunktank';
+  src: url("/static/fonts/kbdunktank.woff2");
+}
 
 /**
  * Any CSS included here will be global. The classic template
@@ -167,4 +171,12 @@ html[data-theme='dark'] .header-github-link:before {
 .markdown code {
   color: var(--ifm-color-primary-dark);
   border: 0.1rem solid transparent;
+}
+
+.markdown .align-center {
+  text-align: center;
+}
+
+.markdown .english-paragraph {
+  display: none;
 }

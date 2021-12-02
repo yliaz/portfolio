@@ -7,6 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const remarkVideoSupport = require('./remark/video-support')
 const remarkAbbr = require('remark-abbr')
 const remarkAttr = require('remark-attr')
+const remarkAlign = require('remark-align')
 
 // Reverse the sidebar items ordering (including nested category items)
 function reverseSidebarItems(items) {
@@ -41,7 +42,9 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          remarkPlugins: [remarkVideoSupport, remarkAbbr, remarkAttr],
+          remarkPlugins: [remarkVideoSupport, remarkAbbr, remarkAttr,
+            [remarkAlign, { left: 'chinese-paragraph', right: 'english-paragraph' }]
+          ],
           // showLastUpdateTime: true,
           // showLastUpdateAuthor: true,
           // editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
@@ -56,6 +59,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      hideableSidebar: true,
       navbar: {
         title: 'ZHUYE',
         logo: {
@@ -89,7 +93,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'leetcode/example-05',
+            docId: 'leetcode/two-sum',
             position: 'left',
             label: '力扣',
           },
@@ -197,6 +201,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['ruby', 'typescript'],
       },
       zoom: {
         selector: '.markdown :not(em) > img',
@@ -208,6 +213,7 @@ const config = {
           }
         }
       },
+
     }),
 
   i18n: {

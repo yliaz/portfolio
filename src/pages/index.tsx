@@ -10,7 +10,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Logo style={{ maxHeight: 120, marginBottom: 20 }} />
+        <Logo style={{ maxHeight: 120, maxWidth: 120, marginBottom: 20 }} />
         <h1 className={clsx("hero__title", styles.heroTitle)}>{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
       </div>
