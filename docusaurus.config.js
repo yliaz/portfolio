@@ -68,10 +68,15 @@ const config = {
         },
         items: [
           {
+            to: 'blog',
+            label: ' 博客',
+            position: 'left'
+          },
+          {
             type: 'doc',
             docId: 'blog/git/git-local',
             position: 'left',
-            label: '技术博客',
+            label: '笔记',
           },
           {
             type: 'doc',
@@ -87,7 +92,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'interview/english/small-talk',
+            docId: 'interview/frontend/html/doctype',
             position: 'left',
             label: '面试',
           },
@@ -101,7 +106,7 @@ const config = {
             type: 'doc',
             docId: 'reading-note/example-06',
             position: 'left',
-            label: '读书笔记',
+            label: '读书',
           },
           {
             href: 'https://github.com/yliaz',

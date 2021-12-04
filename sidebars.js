@@ -149,7 +149,8 @@ const sidebars = {
   interviewSideBar: [
     {
       type: 'category',
-      label: '前端面试刷题(牛客)',
+      label: '前端面试刷题',
+      collapsed: false,
       items: [
         {
           type: 'category',
@@ -157,7 +158,9 @@ const sidebars = {
           items: [
             'interview/frontend/html/doctype',
             'interview/frontend/html/element',
-            'interview/frontend/html/meta'
+            'interview/frontend/html/attribute',
+            'interview/frontend/html/meta',
+            'interview/frontend/html/other'
           ]
         }
       ],
@@ -165,6 +168,7 @@ const sidebars = {
     {
       type: 'category',
       label: '英语面试句型',
+      collapsed: false,
       items: [
         'interview/english/small-talk',
         'interview/english/self-introduction',

@@ -4,7 +4,7 @@ Title: meta 标签
 
 # meta 标签
 
-## 页面出现了乱码，是怎么回事？如何解决？
+## 1. 页面出现了乱码，是怎么回事？如何解决？
 
 当我们保存一个写好的 HTML 文件，编码方式会保存为 UTF-8；
 
@@ -18,9 +18,40 @@ Title: meta 标签
 
 这时，当编码是一种方式，而解码又是另一种方式时，页面就会出现“乱码”；而解决乱码的方式就是：只需要知道我在编辑器保存这个 HTML 文件时，保存的什么编码格式，然后在头部 `<meta charset="?">` 中告诉浏览器用什么方式来解码。
 
--> 居中 <-
+***
 
-<- 中文 <-
+## 2. meta 有哪些常见的值？
 
--> English ->
+1. 指定文档编码
+
+```html
+<meta charset="utf-8">
+```
+
+2. 适配移动端页面
+
+```html
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+```
+
+3. 设置referer
+
+```html
+<meta name="referer" content="never">
+```
+
+4. 添加页面描述
+
+```html
+<meta name="description" content="注册即代表你同意《知乎协议》注册机构号……">
+```
+
+***
+
+## 3. meta viewport 是做什么用的，怎么写？
+meta viewport 是适配移动端页面的。
+
+```html
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+```
 
