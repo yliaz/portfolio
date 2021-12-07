@@ -26,7 +26,7 @@ jobs:
       # 打包
       - name: yarn run build
         run: yarn run build
-      # 部署到阿里云
+      # 部署到腾讯云
       - name: Deploy to Tencent Cloud
         uses: easingthemes/ssh-deploy@v2.1.1
         env:

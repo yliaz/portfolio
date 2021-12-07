@@ -1,3 +1,7 @@
+---
+title: VS Code 自定义 Emmet 代码片段
+---
+
 使用VS Code写HTML时，每次"!+Tab"之后还要修改lang和viewport，十分麻烦。通过自定义Emmet的Snippets，可以一劳永逸，舒服啊！
 
 ### 找到expand-full.js文件
