@@ -4,6 +4,10 @@ authors: [zhuye]
 tags: [JavaScript]
 ---
 
+> 说实话，我忘记当初为什么要写这篇文章了。。。
+
+<!--truncate-->
+
 ## LHS和RHS
 
 ### LHS与RHS的概念
