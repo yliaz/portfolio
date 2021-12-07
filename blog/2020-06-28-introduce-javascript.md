@@ -1,16 +1,12 @@
 ---
 title: JavaScript 昨天、今天和明天
-tags:
-- JavaScript
+authors: [zhuye]
+tags: [JavaScript]
 ---
 
-# ![js](https://zhuye-1308301598.file.myqcloud.com/icons/javascript.png) JavaScript 昨天、今天和明天
+> 任何可以用JavaScript编写的应用，最终都会用JavaScript来编写。
 
-:::note 名言
-- “Any application that can be written in JavaScript, will eventually be written in JavaScript.”
-- “任何可以用JavaScript编写的应用，最终都会用JavaScript来编写。”
-- Jeff Atwood, Author, Entrepreneur, Cofounder of StackOverflow
-:::
+<!--truncate-->
 
 ## JavaScript 的诞生
 

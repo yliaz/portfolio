@@ -1,8 +1,14 @@
 ---
 title: 6个你应该知道的实用CSS小技巧
+authors: [zhuye]
+tags: [CSS]
 ---
 
 # 【译】6个你应该知道的实用CSS小技巧
+
+> 在这篇文章中，我们将会展示一些实用的CSS技巧，你可以在接下来的项目中尝试使用它们。那么让我们直接开始吧。
+
+<!--truncate-->
 
 > - 原文作者：Mehdi Aoussiad
 > - 原文链接：[6 Useful Pure CSS Tips that You Should Know](https://javascript.plainenglish.io/6-useful-pure-css-tips-that-you-should-know-647ccaff201e)

@@ -76,6 +76,35 @@
   --ifm-h4-font-size: 1.1rem;
 }
 
+[itemprop=blogPost] h1 {
+  font-size: 2rem !important;
+}
+
+[itemprop=blogPost] h2 {
+  font-size: 1.5rem !important;
+}
+
+[itemprop=blogPost] h3 {
+  font-size: 1.2rem !important;
+}
+
+[itemprop=blogPost] h4 {
+  font-size: 1.1rem !important;
+}
+
+[itemprop=blogPost] footer {
+  margin-top: 2rem;
+}
+
+[itemprop=blogPost] {
+  margin-bottom: 2rem !important;
+}
+
+[itemprop=blogPost]:not(:first-child) {
+  padding-top: 2rem !important;
+  border-top: 2px dashed var(--ifm-color-primary);
+}
+
 .footer--dark {
   --ifm-footer-background-color: #242526;
 }
@@ -180,4 +209,9 @@ html[data-theme='dark'] .header-github-link:before {
 
 .markdown .english-paragraph {
   display: none;
+}
+
+.markdown p img {
+  display: block;
+  margin: 0 auto;
 }

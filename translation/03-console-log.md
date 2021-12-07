@@ -1,15 +1,15 @@
 ---
 title: 还在用console.log() ？你out了！
+authors: [zhuye]
+tags: [Debug]
 ---
 
-# 【译】还在用console.log() ？你out了！
+> 你是一个经常使用 `console.log()` 来调试代码的 JavaScript 开发者吗？这并没有错。但是，你也许不知道的是，`console`对象还有很多其他很有用的方法。在本文中，我想跟大家聊聊如何高效使用这些方法。
+
+<!--truncate-->
 
 > - 原文作者：Harsha Vardhan
 > - 原文链接：[Stop Using console.log() In JavaScript](https://javascript.plainenglish.io/stop-using-console-log-in-javascript-d29d6c24dc26)
-
-
-你是一个经常使用 `console.log()` 来调试代码的 JavaScript 开发者吗？这并没有错。但是，你也许不知道的是，`console`对象还有很多其他很有用的方法。在本文中，我想跟大家聊聊如何高效使用这些方法。
-
 
 ### 为什么要使用控制台对象
 

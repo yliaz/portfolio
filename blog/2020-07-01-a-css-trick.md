@@ -1,24 +1,18 @@
 ---
 title: 5行CSS实现<span>内文字单行水平居中多行靠左
+authors: [zhuye]
+tags: [CSS]
 ---
 
->  The fault, dear Brutus, is not in our stars, But in ourselves, that we are underlings.
->
-> ——Julius Caesar, Act I, Scene III, L. 140-141
->
-> 亲爱的布鲁特斯，错并不在别处，而在我们自身。
->
-> —— 莎士比亚《裘力斯•凯撒》
+> 巧妙借助 `inline-block` 的特性，使 `<span>` 在文字单行时表现出 `inline` 的特征，而在多行时表现出 `block` 的特征
 
-### 核心思想
-
-- 巧妙借助**inline-block的特性**，**使`<span>`在文字单行时表现出inline的特征，而在多行时表现出block的特征**。
+<!--truncate-->
 
 ![img](https://zhuye-1308301598.file.myqcloud.com/markdown/1587022003942-8e89f44a-1218-40be-aac7-5506d2fb6570.gif)
 
-### 相关代码（含注释）
+## 相关代码（含注释）
 
-#### HTML 部分
+### HTML 部分
 
 - 外层是一个**`<div>`标签**，内层是一个**`<span>`标签**。
 - `<div>`标签给一个**wordsContainer**类，`<span>`给一个**words**类。
@@ -32,7 +26,7 @@ title: 5行CSS实现<span>内文字单行水平居中多行靠左
 </body>
 ```
 
-#### CSS 部分
+### CSS 部分
 
 - 我们给**`<div>`标签**和**`<span>`标签**分别加上样式，**核心代码只有四行**，其它的都是为了方便调试。
 
@@ -67,7 +61,7 @@ title: 5行CSS实现<span>内文字单行水平居中多行靠左
 }
 ```
 
-#### 效果展示
+### 效果展示
 
 | **单行文本**                                                 | **多行文本**                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |

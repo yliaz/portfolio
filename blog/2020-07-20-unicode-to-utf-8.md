@@ -1,19 +1,16 @@
 ---
 title: Unicode 转 UTF-8
-tags:
-- Unicode
-- UTF-8
+authors: [zhuye]
+tags: [Unicode, UTF-8]
 ---
 
-## 概述
-
 这篇文章中，我们打算手写一个将字符的Unicode值转换为UTF-8编码的函数。
+
+<!--truncate-->
 
 ## 基本思想
 
 对于一个字符串中的每一个字符，首先将它的Unicode值转换为二进制数字串，然后对于二进制数字串按照UTF-8的编码规则进行转换，最终得到UTF-8编码。
-
-
 
 ## UTF-8编码规则
 

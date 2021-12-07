@@ -40,6 +40,12 @@ const config = {
       '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        blog: {
+          postsPerPage: 20,
+          blogSidebarCount: 20,
+          blogSidebarTitle: '最新博客',
+          remarkPlugins: [remarkVideoSupport, remarkAbbr, remarkAttr],
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           remarkPlugins: [remarkVideoSupport, remarkAbbr, remarkAttr,
@@ -73,6 +79,11 @@ const config = {
             position: 'left'
           },
           {
+            to: 'translation',
+            label: '翻译',
+            position: 'left'
+          },
+          {
             type: 'doc',
             docId: 'blog/git/git-local',
             position: 'left',
@@ -86,12 +97,6 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'translation/js-shorthand',
-            position: 'left',
-            label: '翻译',
-          },
-          {
-            type: 'doc',
             docId: 'interview/frontend/html/doctype',
             position: 'left',
             label: '面试',
@@ -102,12 +107,12 @@ const config = {
             position: 'left',
             label: '力扣',
           },
-          {
-            type: 'doc',
-            docId: 'reading-note/example-06',
-            position: 'left',
-            label: '读书',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'reading-note/example-06',
+          //   position: 'left',
+          //   label: '读书',
+          // },
           {
             href: 'https://github.com/yliaz',
             position: 'right',
@@ -227,6 +232,18 @@ const config = {
   },
 
   plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'translation',
+        routeBasePath: 'translation',
+        path: './translation',
+        postsPerPage: 20,
+        blogSidebarCount: 20,
+        blogSidebarTitle: '最新翻译',
+        remarkPlugins: [remarkVideoSupport, remarkAbbr, remarkAttr],
+      },
+    ],
     [require.resolve('docusaurus-lunr-search'), {
       languages: ['en', 'zh']
     }],
