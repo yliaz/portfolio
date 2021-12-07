@@ -7,7 +7,7 @@ authors: [zhuye]
 
 <!--truncate-->
 
-这里以Chrome浏览器为例。在理解浏览器的导航过程之前，首先要了解👉[Chrome浏览器的多进程架构](/docs/blog/others/about-chrome)👈，下面简单回顾一下👇
+这里以Chrome浏览器为例。在理解浏览器的导航过程之前，首先要了解👉[Chrome浏览器的多进程架构](/docs/blog/network/about-chrome)👈，下面简单回顾一下👇
 
 Chrome浏览器作为一个多进程架构的浏览器，包含了**浏览器进程**、**网络进程**、**渲染进程**、**GPU进程**和**插件进程**等多个进程。
 
