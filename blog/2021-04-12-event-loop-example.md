@@ -1,11 +1,15 @@
 ---
-title: 一个例子生动理解 Event Loop
+title: 一道谷歌面试题引发的思考
 authors: [zhuye]
 ---
 
-> 我们将通过一个例子，生动地讲述 Event Loop 的故事。
+> 最近刷Youtube偶然看见一个小姐姐分享自己遇到的两个Google面试题，由此产生了这篇文章。
 
 <!--truncate-->
+
+原视频：
+
+![https://zhuye-1308301598.file.myqcloud.com/videos/Google%20Frontend%20Interview%20Questions_0.jpg](https://zhuye-1308301598.file.myqcloud.com/videos/Google%20Frontend%20Interview%20Questions.mp4)
 
 ## 从一段代码讲起
 
