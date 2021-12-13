@@ -247,7 +247,7 @@ const config = {
     ],
     [require.resolve("@easyops-cn/docusaurus-search-local"), {
       hashed: true,
-      languages: ['en', 'zh'],
+      language: ['en', 'zh'],
       docsRouteBasePath: ['/docs'],
       blogRouteBasePath: ['/blog', '/translation'],
       translations: {
