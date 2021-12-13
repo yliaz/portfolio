@@ -248,6 +248,8 @@ const config = {
     [require.resolve("@easyops-cn/docusaurus-search-local"), {
       hashed: true,
       languages: ['en', 'zh'],
+      docsRouteBasePath: ['/docs'],
+      blogRouteBasePath: ['/blog', '/translation'],
       translations: {
         "search_placeholder": "搜索",
         "see_all_results": "查看全部搜索结果",
