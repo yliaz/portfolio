@@ -1,6 +1,5 @@
 ---
 title: 介绍
-image: https://zhuye-1308301598.file.myqcloud.com/icon/icons/docusaurus.png
 ---
 
 # ![](https://zhuye-1308301598.file.myqcloud.com/icons/docusaurus.png) 介绍

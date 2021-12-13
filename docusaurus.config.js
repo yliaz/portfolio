@@ -223,7 +223,11 @@ const config = {
           }
         }
       },
-
+      algolia: {
+        appId: 'VN6J0D1OIR',
+        apiKey: 'f9cb75a0cd5232a3bab5024b42ee3ff6',
+        indexName: 'zhuye_dev',
+      },
     }),
 
   i18n: {
@@ -241,7 +245,9 @@ const config = {
         postsPerPage: 20,
         blogSidebarCount: 20,
         blogSidebarTitle: '最新翻译',
-        remarkPlugins: [remarkVideoSupport, remarkAbbr, remarkAttr],
+        remarkPlugins: [remarkVideoSupport, remarkAbbr, remarkAttr,
+          [remarkAlign, { left: 'chinese-paragraph', right: 'english-paragraph' }]
+        ],
       },
     ],
     [require.resolve('docusaurus-lunr-search'), {

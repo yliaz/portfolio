@@ -1,6 +1,7 @@
 ---
 title: 自制一个 Docker 镜像
 authors: [zhuye]
+image: https://zhuye-1308301598.file.myqcloud.com/markdown/avatar14%20(1).png
 ---
 
 > 这篇文章教你如何自制一个 Docker 镜像

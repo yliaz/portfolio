@@ -3,6 +3,10 @@ title: Mac 终端科学上网
 authors: [zhuye]
 ---
 
+> 这篇文章介绍一下 Mac 终端如何实现科学上网
+
+<!--truncate-->
+
 ## 设置 zshrc 文件
 
 1. 获取端口

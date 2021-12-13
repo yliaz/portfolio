@@ -72,15 +72,15 @@
     "description": "The label of the link targeting the tag list page"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "粘贴代码",
+    "message": "复制代码",
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.copied": {
-    "message": "已粘贴",
+    "message": "已复制",
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copy": {
-    "message": "粘贴",
+    "message": "复制",
     "description": "The copy button label on code blocks"
   },
   "theme.blog.sidebar.navAriaLabel": {
