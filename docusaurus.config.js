@@ -223,11 +223,6 @@ const config = {
           }
         }
       },
-      algolia: {
-        appId: 'VN6J0D1OIR',
-        apiKey: 'f9cb75a0cd5232a3bab5024b42ee3ff6',
-        indexName: 'zhuye_dev',
-      },
     }),
 
   i18n: {
@@ -250,8 +245,19 @@ const config = {
         ],
       },
     ],
-    [require.resolve('docusaurus-lunr-search'), {
-      languages: ['en', 'zh']
+    [require.resolve("@easyops-cn/docusaurus-search-local"), {
+      hashed: true,
+      languages: ['en', 'zh'],
+      translations: {
+        "search_placeholder": "搜索",
+        "see_all_results": "查看全部搜索结果",
+        "no_results": "未找到结果",
+        "search_results_for": "\"{{ keyword }}\" 的搜索结果",
+        "search_the_documentation": "搜索文档",
+        "count_documents_found": "找到了 {{ count }} 篇相关文档",
+        "count_documents_found_plural": "找到了 {{ count }} 篇相关文档",
+        "no_documents_were_found": "未找到相关文档"
+      }
     }],
     'docusaurus-plugin-sass',
     require.resolve('docusaurus-plugin-image-zoom'),
