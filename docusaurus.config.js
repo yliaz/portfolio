@@ -90,7 +90,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'tutorial/docusaurus/introduction',
+            docId: 'tutorial/github-profile/final-result',
             position: 'left',
             label: '教程',
           },
@@ -100,18 +100,6 @@ const config = {
             position: 'left',
             label: '面试',
           },
-          {
-            type: 'doc',
-            docId: 'leetcode/two-sum',
-            position: 'left',
-            label: '力扣',
-          },
-          // {
-          //   type: 'doc',
-          //   docId: 'reading-note/example-06',
-          //   position: 'left',
-          //   label: '读书',
-          // },
           {
             href: 'https://github.com/yliaz',
             position: 'right',
@@ -144,7 +132,7 @@ const config = {
             ]
           },
         ],
-        
+
       },
       footer: {
         style: 'dark',
@@ -193,10 +181,6 @@ const config = {
               {
                 label: '掘金',
                 href: 'https://juejin.cn/user/2911162522934215/posts',
-              },
-              {
-                label: '语雀',
-                href: 'https://www.yuque.com/gangafengliu',
               },
               {
                 label: 'Bilibili',

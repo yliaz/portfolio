@@ -8,6 +8,7 @@ interface Props {
 }
 
 function BrowserWindow({children, minHeight, url}: Props): JSX.Element {
+  console.log(children)
   return (
     <div className={styles.browserWindow} style={{minHeight}}>
       <div className={styles.browserWindowHeader}>
@@ -16,7 +17,7 @@ function BrowserWindow({children, minHeight, url}: Props): JSX.Element {
           <span className={styles.dot} style={{background: '#fbbe3c'}} />
           <span className={styles.dot} style={{background: '#58cb42'}} />
         </div>
-        <div className={styles.browserWindowAddressBar}>{url}</div>
+        <div className={styles.browserWindowAddressBar}><a href={url} target='_blank'>{url}</a></div>
         <div className={styles.browserWindowMenuIcon}>
           <div>
             <span className={styles.bar} />
@@ -26,7 +27,9 @@ function BrowserWindow({children, minHeight, url}: Props): JSX.Element {
         </div>
       </div>
 
-      <div className={styles.browserWindowBody}>{children}</div>
+      <div className={styles.browserWindowBody}>
+        {children}
+      </div>
     </div>
   );
 }
