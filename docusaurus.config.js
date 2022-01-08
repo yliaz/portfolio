@@ -206,6 +206,11 @@ const config = {
           }
         }
       },
+      metadata: [
+        {name: 'title', content: "朱烨的博客 Zhu Ye's Blog"},
+        {name: 'keywords', content: '朱烨 博客 ZHUYE 前端 招聘 面试'},
+        {name: 'description', content: '这里是朱烨的博客，会不定期分享一些技术文章和前端经验，欢迎大家交流学习。'},
+      ],
     }),
 
   i18n: {
