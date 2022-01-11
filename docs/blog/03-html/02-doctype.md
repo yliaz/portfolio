@@ -5,9 +5,13 @@ tags:
 - Doctype
 ---
 
-import BrowserWindow from "../../../src/components/BrowserWindow/BrowserWindow";
-
 # ![html](https://zhuye-1308301598.file.myqcloud.com/icons/html.png) 关于 Doctype
+
+:::tip 对应面试题
+
+- [DOCTYPE 有什么作用，怎么写？](../../interview/frontend/html/doctype#1-doctype-有什么作用怎么写)
+
+:::
 
 ## DOCTYPE 是什么，有什么作用？
 

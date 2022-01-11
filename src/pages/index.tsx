@@ -13,7 +13,7 @@ function HomepageHeader() {
       <div className="container">
         <Logo style={{ maxHeight: 120, maxWidth: 120, marginBottom: 20 }} />
         <h1 className={clsx("hero__title", styles.heroTitle)}>
-          <Zhuye style={{ color: 'white', width: 400, maxHeight: 50 }} />
+          <Zhuye style={{ color: 'white', maxWidth: 200, maxHeight: 50 }} />
         </h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
       </div>

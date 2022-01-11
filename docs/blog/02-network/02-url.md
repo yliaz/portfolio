@@ -10,7 +10,11 @@ title: 关于 URL
 
 一个URL包括以下几个部分：
 
-例子：http://user:pass@www.example.com:80/dir/index.html?uid=1#ch1
+例子：
+
+```text
+http://user:pass@www.example.com:80/dir/index.html?uid=1#ch1
+```
 
 - http:// ：协议方案名
 - user:pass：登录信息（认证）
