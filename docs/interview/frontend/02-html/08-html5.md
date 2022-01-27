@@ -28,12 +28,13 @@ HTML5 现在已经不是 SGML 的子集，主要是关于图像，位置，存�
 
 ## 2. 如何处理 HTML5 新标签的浏览器兼容问题？
 
-1. IE8/IE7/IE6 支持通过 document.createElement 方法产生的标签，可以利用这一特性让这些浏览器
+1. IE8/IE7/IE6 支持通过 `document.createElement` 方法产生的标签，可以利用这一特性让这些浏览器
 支持 HTML5 新标签，浏览器支持新标签后，还需要添加标签默认的样式。
 
-（2） 当然也可以直接使用成熟的框架，比如 html5shiv ;
+2. 当然也可以直接使用成熟的框架，比如 `html5shiv` ;
+```html
 `<!--[if lt IE 9]>
       <script> src="https://cdn.jsdelivr.net/npm/html5shiv/dist/html5shiv.min.js"</script>
       <![endif]-->`
-
-      [if lte IE 9]……[endif] 判断 IE 的版本，限定只有 IE9 以下浏览器版本需要执行的语句。
+```
+[if lte IE 9]……[endif] 判断 IE 的版本，限定只有 IE9 以下浏览器版本需要执行的语句。
