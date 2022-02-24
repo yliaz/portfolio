@@ -154,40 +154,6 @@ const config = {
               }
             ]
           },
-          {
-            title: '一些小项目',
-            items: [
-              {
-                label: 'Three Cubes Demo（with three.js）',
-                href: 'https://github.com/yliaz/three-cubes-demo'
-              },
-              {
-                label: '纯 CSS 绘制海绵宝宝',
-                href: 'https://github.com/yliaz/pure-css-sponge-bob-friends',
-              }
-            ]
-          },
-          {
-            title: '去哪里找我？',
-            items: [
-              {
-                label: 'Github',
-                href: 'https://github.com/yliaz',
-              },
-              {
-                label: '我的 Notion 主页',
-                href: 'https://zhuye.site',
-              },
-              {
-                label: '掘金',
-                href: 'https://juejin.cn/user/2911162522934215/posts',
-              },
-              {
-                label: 'Bilibili',
-                href: 'https://space.bilibili.com/325194728',
-              },
-            ],
-          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} 朱烨的主页 Built with Docusaurus.`,
       },
