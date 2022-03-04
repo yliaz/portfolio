@@ -74,31 +74,25 @@ const config = {
         items: [
           {
             to: 'blog',
-            label: ' 博客',
+            label: '我的博客',
             position: 'left'
           },
           {
             to: 'translation',
-            label: '翻译',
+            label: '文章翻译',
             position: 'left'
           },
           {
             type: 'doc',
-            docId: 'blog/git/git-local',
+            docId: 'git/git-local',
             position: 'left',
-            label: '笔记',
-          },
-          {
-            type: 'doc',
-            docId: 'tutorial/github-profile/final-result',
-            position: 'left',
-            label: '教程',
+            label: '学习笔记',
           },
           {
             type: 'doc',
             docId: 'interview/frontend/html/doctype',
             position: 'left',
-            label: '面试',
+            label: '面试整理',
           },
           {
             href: 'https://github.com/yliaz',

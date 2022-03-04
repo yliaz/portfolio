@@ -1,5 +1,5 @@
 ---
-title: 还在用console.log() ？你out了！
+title: 【译】还在用console.log() ？你out了！
 authors: [zhuye]
 tags: [Debug]
 ---

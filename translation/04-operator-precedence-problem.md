@@ -1,18 +1,15 @@
 ---
-title: 我解决了一个看似非常愚蠢的JS问题
+title: 【译】我解决了一个看似非常愚蠢的JS问题
 authors: [zhuye]
 tags: [JavaScript]
 ---
-
-# 【译】我解决了一个看似非常愚蠢的JS问题
 
 > 这篇文章介绍了一个由 JavaScript 运算符优先级引发的问题
 
 <!--truncate-->
 
->  原文作者：Alexander Troup
->
->  原文链接：[Solving a stupid JavaScript problem](https://javascript.plainenglish.io/solving-a-stupid-javascript-problem-aa54e26e3605)
+> - 原文作者：Alexander Troup
+> - 原文链接：[Solving a stupid JavaScript problem](https://javascript.plainenglish.io/solving-a-stupid-javascript-problem-aa54e26e3605)
 
 故事要从 Tomasz Lakomy 发的一条推特讲起，他问了一个问题。假如你在面试时，面试官问了你这样一道问题，你该怎么办。
 
