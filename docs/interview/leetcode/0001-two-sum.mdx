@@ -53,12 +53,10 @@ import BrowserWindow from "../../../src/components/BrowserWindow/BrowserWindow";
 ## 代码
 
 <Tabs groupId="solutions">
-  <TabItem value="js" label="JavaScript">
+  <TabItem value="ts" label="TypeScript">
 
 ```js
-// 用时：80ms
-// 内存消耗：39.4MB
-const twoSum = (nums, target) => {
+function twoSum(nums: number[], target: number): number[] {
     const tempHash = {}
     for (let index = 0; index < nums.length; index++) {
         const targetNum = tempHash[target - nums[index]]
@@ -68,7 +66,7 @@ const twoSum = (nums, target) => {
           tempHash[nums[index]] = index
         }
     }
-}
+};
 ```
 
   </TabItem>
