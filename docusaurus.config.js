@@ -90,7 +90,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'interview/frontend/html/doctype',
+            docId: 'interview/leetcode/two-sum',
             position: 'left',
             label: '面试整理',
           },
