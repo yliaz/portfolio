@@ -53,33 +53,33 @@ import BrowserWindow from "../../../src/components/BrowserWindow/BrowserWindow";
 <Tabs groupId="solutions">
   <TabItem value="ts1" label="TypeScript 1">
 
-    ```ts
-    function backspaceCompare(s: string, t: string): boolean {
-        function stringProcessor(str: string): string {
-            let result = ''
-            let slowIndex = 0
-            for (let fastIndex = 0; fastIndex < str.length; fastIndex++) {
-                if (str[fastIndex] === '#') {
-                    if (slowIndex > 0) {
-                        result = result.slice(0, -1)
-                    }
-                } else {
-                    result = result + str[fastIndex]
-                    slowIndex++
+```ts
+function backspaceCompare(s: string, t: string): boolean {
+    function stringProcessor(str: string): string {
+        let result = ''
+        let slowIndex = 0
+        for (let fastIndex = 0; fastIndex < str.length; fastIndex++) {
+            if (str[fastIndex] === '#') {
+                if (slowIndex > 0) {
+                    result = result.slice(0, -1)
                 }
+            } else {
+                result = result + str[fastIndex]
+                slowIndex++
             }
-            return result
         }
-        return stringProcessor(s) === stringProcessor(t)
-    };
-    ```
+        return result
+    }
+    return stringProcessor(s) === stringProcessor(t)
+};
+```
 
   </TabItem>
 
   <TabItem value="ts2" label="TypeScript 2">
 
-    ```ts
-    function backspaceCompare(s: string, t: string): boolean {
+```ts
+function backspaceCompare(s: string, t: string): boolean {
     // 从尾部开始遍历
     let sIndex = s.length - 1
     let tIndex = t.length - 1
@@ -115,7 +115,7 @@ import BrowserWindow from "../../../src/components/BrowserWindow/BrowserWindow";
     }
     return true
 };
-    ```
+```
 
   </TabItem>
 </Tabs>
