@@ -76,6 +76,7 @@ function minWindow(s: string, t: string): string {
     while(rightIndex < s.length) {
         const rightChar = s[rightIndex]
         tempStr += rightChar
+
         // 如果操作的字符在 t 中，则，调整 records 和 tempCount
         if (records[rightChar] !== undefined) {
             records[rightChar]--
@@ -90,6 +91,8 @@ function minWindow(s: string, t: string): string {
             if (tempStr.length < result.length || result.length === 0) {
                 result = tempStr
             }
+
+            // 如果操作的字符在 t 中，则，调整 records 和 tempCount
             const leftChar = s[leftIndex]
             if (records[leftChar] !== undefined) {
                 records[leftChar]++
@@ -97,7 +100,7 @@ function minWindow(s: string, t: string): string {
                     tempCount++
                 }
             }
-            tempStr = tempStr.slice(1)
+            tempStr = tempStr.slice(1)  // 缩短字符串
             leftIndex++
         }
         rightIndex++
