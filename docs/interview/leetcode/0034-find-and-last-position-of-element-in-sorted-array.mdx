@@ -51,6 +51,7 @@ import BrowserWindow from "../../../src/components/BrowserWindow/BrowserWindow";
   <TabItem value="ts" label="TypeScript">
 
 ```ts
+// 二分查找
 function searchRange(nums: number[], target: number): number[] {
     let left = 0
     let right = nums.length - 1
@@ -58,6 +59,7 @@ function searchRange(nums: number[], target: number): number[] {
         const mid = left + Math.floor((right - left) / 2)
         const num = nums[mid]
         if (target === num) {
+            // 找到目标值后，向两侧延伸
             let start = mid, end = mid
             while(nums[start] === target) {
                 start--

@@ -46,11 +46,12 @@ import BrowserWindow from "../../../src/components/BrowserWindow/BrowserWindow";
 
 ```ts
 function removeDuplicates(nums: number[]): number {
+    // 因为是升序数组，所以重复项都是相邻的，用双指针法遍历一次即可
     let slowIndex = 0
     let target = nums[slowIndex]
     for (let fastIndex = 0; fastIndex < nums.length; fastIndex++) {
-        // 快慢指针相等，则只移动快指针
-        // 快慢指针不相等，则赋值并同时移动
+        // 快慢指针相等，说明是重复值，则不操作，只将快指针后移一位
+        // 快慢指针不相等，说明有了新的值，则将慢指针后移一位，并把快指针指的值赋给慢指针所在位置
         if (nums[slowIndex] !== nums[fastIndex]) {
             target = nums[fastIndex]
             nums[++slowIndex] = target

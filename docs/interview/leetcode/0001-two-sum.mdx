@@ -55,14 +55,17 @@ import BrowserWindow from "../../../src/components/BrowserWindow/BrowserWindow";
 <Tabs groupId="solutions">
   <TabItem value="ts" label="TypeScript">
 
-```js
+```ts
 function twoSum(nums: number[], target: number): number[] {
-    const tempHash = {}
+    const tempHash = {}   // 哈希用来存储已经遍历过的值，并记录他们的坐标
     for (let index = 0; index < nums.length; index++) {
+        // 计算当前值达到条件需要的目标值，并看是否已经在 Hash 中了
         const targetNum = tempHash[target - nums[index]]
         if (targetNum !== undefined) {
-            return [targetNum, index]
+          // 如果在，说明找到了，返回二者的下标即可
+          return [targetNum, index]
         } else {
+          // 如果不在就先暂存到 Hash 中
           tempHash[nums[index]] = index
         }
     }

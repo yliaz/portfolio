@@ -46,13 +46,15 @@ import BrowserWindow from "../../../src/components/BrowserWindow/BrowserWindow";
   <TabItem value="ts" label="TypeScript">
 
 ```ts
+// 滑动窗口
 function minSubArrayLen(target: number, nums: number[]): number {
-    let minLength = nums.length + 1
+    let minLength = nums.length + 1  // 特殊值便于最终的判断
     let leftIndex = 0, rightIndex = 0
     let total = 0
     while(rightIndex < nums.length) {
-        total += nums[rightIndex++]
+        total += nums[rightIndex++]  // 计算滑块中数字的和
         while(total >= target) {
+            // 如果满足条件，则记录此时的滑块长度，并从头部缩减滑块长度
             minLength = Math.min(minLength, rightIndex - leftIndex)
             total -= nums[leftIndex++]
         }
