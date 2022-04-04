@@ -76,7 +76,7 @@ function reverseList(head: ListNode | null): ListNode | null {
 ```
 
   </TabItem>
-  <TabItem value="ts1" label="TypeScript 1">
+  <TabItem value="ts2" label="TypeScript 2">
 
 ```ts
 /**
