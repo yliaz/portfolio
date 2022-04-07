@@ -8,7 +8,6 @@ interface Props {
 }
 
 function BrowserWindow({children, minHeight, url}: Props): JSX.Element {
-  console.log(children)
   return (
     <div className={styles.browserWindow} style={{minHeight}}>
       <div className={styles.browserWindowHeader}>

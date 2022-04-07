@@ -10,7 +10,7 @@ import BrowserWindow from "@site/src/components/BrowserWindow/BrowserWindow";
 
 ## 题目
 
-<BrowserWindow url='https://leetcode-cn.com/problems/happy-number/'>
+<BrowserWindow url='https://leetcode-cn.com/problems/4sum-ii/'>
 
   给你四个整数数组 `nums1`、`nums2`、`nums3` 和 `nums4` ，数组长度都是 `n` ，请你计算有多少个元组 `(i, j, k, l)` 能满足：
 

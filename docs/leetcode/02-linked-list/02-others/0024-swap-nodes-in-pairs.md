@@ -1,12 +1,12 @@
 ---
-title: 24. 删除有序数组中的重复项
+title: 24. 两两交换链表中的节点
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import BrowserWindow from "@site/src/components/BrowserWindow/BrowserWindow";
 
-# 24. 删除有序数组中的重复项
+# 24. 两两交换链表中的节点
 
 <BrowserWindow url='https://leetcode-cn.com/problems/swap-nodes-in-pairs/'>
 

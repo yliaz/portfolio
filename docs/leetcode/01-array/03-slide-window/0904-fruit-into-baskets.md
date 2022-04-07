@@ -10,7 +10,7 @@ import BrowserWindow from "@site/src/components/BrowserWindow/BrowserWindow";
 
 ## 题目
 
-<BrowserWindow url='https://leetcode-cn.com/problems/squares-of-a-sorted-array/submissions/'>
+<BrowserWindow url='https://leetcode-cn.com/problems/fruit-into-baskets/'>
 
   你正在探访一家农场，农场从左到右种植了一排果树。这些树用一个整数数组 `fruits` 表示，其中 `fruits[i]` 是第 `i` 棵树上的水果__种类__ 。
 

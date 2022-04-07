@@ -8,7 +8,7 @@ import BrowserWindow from "@site/src/components/BrowserWindow/BrowserWindow";
 
 # 209. 长度最小的子数组
 
-<BrowserWindow url='https://leetcode-cn.com/problems/remove-element/'>
+<BrowserWindow url='https://leetcode-cn.com/problems/minimum-size-subarray-sum/'>
 
   给定一个含有 `n` 个正整数的数组和一个正整数 `target` 。
 
