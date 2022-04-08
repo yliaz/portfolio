@@ -8,7 +8,7 @@ import { SimpleTag, MediumTag, HardTag } from '@site/src/components/LeetcodeTag/
 
 | <SimpleTag /> | <MediumTag /> | <HardTag /> | [总计](catalogue) |
 | :-----------: | :-----------: | :---------: | :---------------: |
-|      19       |      14       |      1      |        34         |
+|      24       |      14       |      1      |        39         |
 
 | 序号 |              题目              |                       力扣链接                        | 难易程度 |
 | :--: | :----------------------------- | :---------------------------------------------------: | :------: |
@@ -33,17 +33,22 @@ import { SimpleTag, MediumTag, HardTag } from '@site/src/components/LeetcodeTag/
 | 203 | [移除链表元素](linked-list/basic-operations/remove-linked-list-elements) | [点击查看](https://leetcode-cn.com/problems/remove-linked-list-elements/) | <SimpleTag /> |
 | 206 | [反转链表](linked-list/others/reverse-linked-list) | [点击查看](https://leetcode-cn.com/problems/reverse-linked-list) | <SimpleTag /> |
 | 209 | [长度最小的子数组](array/slide-window/minimum-size-subarray-sum) | [点击查看](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | <MediumTag /> |
+| 217 | [存在重复元素](hash/array-intersection/contains-duplicate) | [点击查看](https://leetcode-cn.com/problems/contains-duplicate/) | <SimpleTag /> |
 | 242 | [有效的字母异位词](hash/anagram/valid-anagram) | [点击查看](https://leetcode-cn.com/problems/valid-anagram/) | <SimpleTag /> |
 | 283 | [移动零](docs/leetcode/array/double-pointer/move-zeroes) | [点击查看](https://leetcode-cn.com/problems/move-zeroes/) | <SimpleTag /> |
+| 344 | [反转字符串](string/reverse/reverse-string) | [点击查看](https://leetcode-cn.com/problems/reverse-string/) | <SimpleTag /> |
 | 349 | [两个数组的交集](hash/array-intersection/intersection-of-two-arrays) | [点击查看](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | <SimpleTag /> |
 | 350 | [两个数组的交集 II](hash/array-intersection/intersection-of-two-arrays-ii) | [点击查看](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | <SimpleTag /> |
 | 367 | [有效的完全平方数](array/binary-search/valid-perfect-square) | [点击查看](https://leetcode-cn.com/problems/valid-perfect-square/) | <SimpleTag /> |
 | 383 | [赎金信](hash/anagram/ransom-note) | [点击查看](https://leetcode-cn.com/problems/ransom-note/) | <SimpleTag /> |
 | 438 | [找到字符串中所有字母异位词](hash/anagram/find-all-anagrams-in-a-string) | [点击查看](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | <MediumTag /> |
 | 454 | [四数相加 II](hash/n-sum/four-sum-ii) | [点击查看](https://leetcode-cn.com/problems/4sum-ii/) | <MediumTag /> |
+| 541 | [反转字符串 II](string/reverse/reverse-string-ii) | [点击查看](https://leetcode-cn.com/problems/reverse-string-ii/) | <SimpleTag /> |
 | 704 | [二分查找](array/binary-search/binary-search) | [点击查看](https://leetcode-cn.com/problems/binary-search/) | <SimpleTag /> |
 | 707 | [设计链表](linked-list/basic-operations/design-linked-list) | [点击查看](https://leetcode-cn.com/problems/design-linked-list/) | <MediumTag /> |
 | 844 | [比较含退格的字符串](docs/leetcode/array/double-pointer/backspace-string-compare) | [点击查看](https://leetcode-cn.com/problems/backspace-string-compare/) | <SimpleTag /> |
 | 904 | [水果成篮](array/slide-window/fruit-into-baskets) | [点击查看](https://leetcode-cn.com/problems/fruit-into-baskets/) | <MediumTag /> |
 | 977 | [有序数组的平方](array/double-pointer/squares-of-a-sorted-array) | [点击查看](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | <SimpleTag /> |
+| 1672 | [最富有客户的资产总量](array/others/richest-customer-wealth) | [点击查看](https://leetcode-cn.com/problems/richest-customer-wealth/) | <SimpleTag /> |
+| 剑指 Offer 05 | [替换空格](string/replace/X005-replace-blank) | [点击查看](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/) | <SimpleTag /> |
 
