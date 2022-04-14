@@ -5,11 +5,19 @@ tags: [HTML]
 
 # ![html](https://zhuye-1308301598.file.myqcloud.com/icons/html.png) 常用 meta 标签
 
+:::tip 对应面试题
+
+- [1. 页面出现了乱码，是怎么回事？如何解决？](/docs/interview/frontend/html/meta#meta-charset)
+- [2. meta 有哪些常见的值？](/docs/interview/frontend/html/meta#common-meta)
+- [3. meta viewport 是做什么用的，怎么写？](/docs/interview/frontend/html/meta#meta-viewport)
+
+:::
+
 ![img](https://zhuye-1308301598.file.myqcloud.com/markdown/1586577205260-b67592fd-8593-4c48-ae24-81d5f442c7b5.png)
 
-`<meta>` 元素用于描述元数据
+`<meta>` 元素用于描述元数据，一般都在 `<head>` 元素内。
 
-## charset
+## 1. charset
 
 > The charset attribute specifies the character encoding used by the document. (*whatwg.org*)
 
@@ -21,14 +29,14 @@ tags: [HTML]
 <!-- 使用UTF-8 意味着可以选择任何语言-->
 ```
 
-## name="xxx" content="xxx"
+## 2. name="xxx" content="xxx"
 
 ```html
 <!-- 下面这样一类meta标签的形式是统一的 -->
 <meta name="xxx" content="xxx">
 ```
 
-### 适配移动端
+### 2.1 适配移动端
 
 #### 恰当设置viewport（name="viewport"）
 
@@ -68,9 +76,9 @@ tags: [HTML]
 > - [聊聊Viewport那些事](https://juejin.im/post/5a910349f265da4e9449cffd)
 > - [viewport的深入理解](https://www.cnblogs.com/2050/p/3877280.html)
 
-### 搜索引擎优化
+### 2.2 搜索引擎优化
 
-#### 关键字（name="keywords"）
+#### 2.2.1 关键字（name="keywords"）
 
 告知搜索引擎网页关键字，便于爬取
 
@@ -78,7 +86,7 @@ tags: [HTML]
 <meta name="keywords" content="关键字1, 关键字2">
 ```
 
-#### 内容描述（name="description"）
+#### 2.2.2 内容描述（name="description"）
 
 告知搜索引擎网页描述。
 
@@ -86,9 +94,9 @@ tags: [HTML]
 <meta name="description" content="这里写一些关于网站的一些描述">
 ```
 
-### 其他网页信息
+### 2.3 其他网页信息
 
-#### 作者（name="author"）
+#### 2.3.1 作者（name="author"）
 
 标注网页作者
 
@@ -96,7 +104,7 @@ tags: [HTML]
 <meta name="author" content="尴尬风流">
 ```
 
-#### 制作网页所用软件（name="generator"）
+#### 2.3.2 制作网页所用软件（name="generator"）
 
 标明制作网页所用的软件
 
@@ -104,7 +112,7 @@ tags: [HTML]
 <meta name="generator" content="Visual Studio Code1.43.2">
 ```
 
-#### 内核选择（name="renderer"）
+#### 2.3.3 内核选择（name="renderer"）
 
 指定双内核浏览器（例如360浏览器等）使用哪个内核渲染页面
 
@@ -112,9 +120,9 @@ tags: [HTML]
 <meta name="renderer" content="webkit | ie-comp">
 ```
 
-## http-equiv
+## 3. http-equiv
 
-### 指定浏览器渲染方式
+### 3.1 指定浏览器渲染方式
 
 使用**X-UA-Compatible**指定用哪个版本进行渲染
 
@@ -128,7 +136,7 @@ tags: [HTML]
 
 此处存疑，与浏览器适配相关，后续回来补充。
 
-### 自动刷新并指向某页面
+### 3.2 自动刷新并指向某页面
 
 使用refresh，网页将在设定的时间内，自动刷新并跳转到设定的网址
 

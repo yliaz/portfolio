@@ -4,7 +4,7 @@ title: meta 标签
 
 # meta 标签
 
-## 1. 页面出现了乱码，是怎么回事？如何解决？
+## 1. 页面出现了乱码，是怎么回事？如何解决？ {#meta-charset}
 
 当我们保存一个写好的 HTML 文件，编码方式会保存为 UTF-8；
 
@@ -20,7 +20,7 @@ title: meta 标签
 
 ***
 
-## 2. meta 有哪些常见的值？
+## 2. meta 有哪些常见的值？  {#common-meta}
 
 1. 指定文档编码
 
@@ -48,7 +48,7 @@ title: meta 标签
 
 ***
 
-## 3. meta viewport 是做什么用的，怎么写？
+## 3. meta viewport 是做什么用的，怎么写？  {#meta-viewport}
 meta viewport 是适配移动端页面的。
 
 ```html

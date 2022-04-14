@@ -42,7 +42,7 @@ const config = {
       ({
         blog: {
           postsPerPage: 20,
-          blogSidebarCount: 20,
+          blogSidebarCount: 'ALL',
           blogSidebarTitle: '最新博客',
           remarkPlugins: [remarkVideoSupport, remarkAbbr, remarkAttr],
         },
@@ -113,9 +113,9 @@ const config = {
             'aria-label': 'Juejin Homepage',
           },
           {
-            href: 'https://www.yuque.com/gangafengliu',
+            href: 'https://space.bilibili.com/2001085527',
             position: 'right',
-            className: 'header-yuque-link',
+            className: 'header-bilibili-link',
             'aria-label': 'Yuque Homepage',
           },
           {
@@ -151,6 +151,27 @@ const config = {
               {
                 label: '一些技术分享的 PPT',
                 href: 'https://github.com/yliaz/MyPPTs'
+              }
+            ]
+          },
+          {
+            title: '去哪里找我',
+            items: [
+              {
+                label: 'Github',
+                href: 'https://github.com/yliaz'
+              },
+              {
+                label: 'Bilibili（Ada字幕组）',
+                href: 'https://space.bilibili.com/2001085527'
+              },
+              {
+                label: '稀土掘金',
+                href: 'https://juejin.cn/user/2911162522934215/posts'
+              },
+              {
+                label: '力扣',
+                href: 'https://leetcode-cn.com/u/zhuye256/'
               }
             ]
           },
@@ -192,7 +213,7 @@ const config = {
         routeBasePath: 'translation',
         path: './translation',
         postsPerPage: 20,
-        blogSidebarCount: 20,
+        blogSidebarCount: 'ALL',
         blogSidebarTitle: '最新翻译',
         remarkPlugins: [remarkVideoSupport, remarkAbbr, remarkAttr,
           [remarkAlign, { left: 'chinese-paragraph', right: 'english-paragraph' }]

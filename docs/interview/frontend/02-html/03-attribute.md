@@ -4,7 +4,7 @@ title: 属性
 
 # 属性
 
-## 1. `title` 属性和 `alt` 属性分别有什么作用？
+## 1. `title` 属性和 `alt` 属性分别有什么作用？  {#title-and-alt}
 
 `title` 属性有一个很好的用途：即为链接添加描述性文字，特别是当链接本身并不是十分清楚的表达了链接的目的。
 
@@ -22,7 +22,7 @@ title: 属性
 
 ***
 
-## 2. `data-` 属性的作用？
+## 2. `data-` 属性的作用？  {#data-attribute}
 
 `data-` 为 HTML5 新增的为前端开发者提供自定义的属性，这些属性集可以通过对象的 `dataset` 属性获取；
 不支持该属性的浏览器可以通过 `getAttribute` 方法获取 。
@@ -33,7 +33,7 @@ title: 属性
 
 ***
 
-## 3. HTML 全局属性（Global Attributes）有哪些？
+## 3. HTML 全局属性（Global Attributes）有哪些？  {#global-attributes}
 
 - `class` ：为元素设置类标识；
 - `data-*` ：为元素增加自定义属性；

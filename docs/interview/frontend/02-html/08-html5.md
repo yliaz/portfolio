@@ -24,7 +24,7 @@ HTML5 现在已经不是 SGML 的子集，主要是关于图像，位置，存�
 - 纯表现的元素：`basefont`，`big`，`center`，`font`, `s`，`strike`，`tt`，`u`;
 - 对可用性产生负面影响的元素：`frame`，`frameset`，`noframes`；
 
-*** 
+***
 
 ## 2. 如何处理 HTML5 新标签的浏览器兼容问题？
 

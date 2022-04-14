@@ -120,7 +120,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.header-github-link:hover, .header-juejin-link:hover, .header-yuque-link:hover {
+.header-github-link:hover, .header-juejin-link:hover, .header-bilibili-link:hover {
   opacity: 0.6;
 }
 
@@ -146,12 +146,12 @@ html[data-theme='dark'] .header-github-link:before {
   background-size: contain;
 }
 
-.header-yuque-link::before {
+.header-bilibili-link::before {
   content: '';
   width: 24px;
   height: 24px;
   display: flex;
-  background-image: url(/static/img/logo/yuque.svg);
+  background-image: url(/static/img/logo/bilibili.svg);
   background-size: contain;
 }
 
