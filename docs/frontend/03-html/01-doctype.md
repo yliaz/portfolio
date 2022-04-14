@@ -9,10 +9,10 @@ tags:
 
 :::tip 对应面试题
 
-- [1. DOCTYPE 有什么作用，怎么写？](/docs/interview/frontend/html/doctype#what-is-doctype)
-- [2. HTML 5 为什么只写 `<!DOCTYPE html>`](/docs/interview/frontend/html/doctype#doctype-in-html5)
-- [3. DOCTYPE 作用？严格模式与混杂模式如何区分？它们有何意义？](/docs/interview/frontend/html/doctype#how-doctype-works)
-- [4. 什么是 DTD？](/docs/interview/frontend/html/doctype#what-is-dtd)
+- [1. DOCTYPE 有什么作用，怎么写？](../../interview/frontend/html/doctype#what-is-doctype)
+- [2. HTML 5 为什么只写 `<!DOCTYPE html>`](../../interview/frontend/html/doctype#doctype-in-html5)
+- [3. DOCTYPE 作用？严格模式与混杂模式如何区分？它们有何意义？](../../interview/frontend/html/doctype#how-doctype-works)
+- [4. 什么是 DTD？](../../interview/frontend/html/doctype#what-is-dtd)
 
 :::
 

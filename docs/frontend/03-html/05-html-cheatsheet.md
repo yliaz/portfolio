@@ -8,10 +8,10 @@ tags:
 
 :::tip 对应面试题
 
-- [1. 列出常见的标签，并简单介绍这些标签用在什么场景？](/docs/interview/frontend/html/element#common-elements)
-- [2. `data-` 属性的作用？](/docs/interview/frontend/html/attribute#data-attribute)
-- [3. HTML 全局属性（Global Attributes）有哪些？](/docs/interview/frontend/html/attribute#global-attributes)
-- [4. 你是如何理解 HTML 语义化的？](/docs/interview/frontend/html/other/html-semantic)
+- [1. 列出常见的标签，并简单介绍这些标签用在什么场景？](../../interview/frontend/html/element#common-elements)
+- [2. `data-` 属性的作用？](../../interview/frontend/html/attribute#data-attribute)
+- [3. HTML 全局属性（Global Attributes）有哪些？](../../interview/frontend/html/attribute#global-attributes)
+- [4. 你是如何理解 HTML 语义化的？](../../interview/frontend/html/other#html-semantic)
 
 :::
 

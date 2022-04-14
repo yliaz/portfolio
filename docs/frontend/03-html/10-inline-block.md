@@ -7,8 +7,8 @@ tags: [HTML]
 
 :::tip 对应面试题
 
-- [行内元素和块级元素的区别？](../../interview/frontend/html/element#4-行内元素和块级元素的区别)
-- [列举常见的行内元素和块级元素？](../../interview/frontend/html/element#5-列举常见的行内元素和块级元素)
+- [行内元素和块级元素的区别？](/docs/interview/frontend/html/element#4-行内元素和块级元素的区别)
+- [列举常见的行内元素和块级元素？](/docs/interview/frontend/html/element#5-列举常见的行内元素和块级元素)
 
 :::
 

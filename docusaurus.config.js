@@ -116,7 +116,7 @@ const config = {
             href: 'https://space.bilibili.com/2001085527',
             position: 'right',
             className: 'header-bilibili-link',
-            'aria-label': 'Yuque Homepage',
+            'aria-label': 'Bilibili Homepage',
           },
           {
             type: 'dropdown',
