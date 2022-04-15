@@ -8,7 +8,7 @@ import { SimpleTag, MediumTag, HardTag } from '@site/src/components/LeetcodeTag/
 
 | <SimpleTag /> | <MediumTag /> | <HardTag /> | [总计](catalogue) |
 | :-----------: | :-----------: | :---------: | :---------------: |
-|      24       |      15       |      1      |        40         |
+|      25       |      15       |      1      |        41         |
 
 | 序号 |              题目              |                       力扣链接                        | 难易程度 |
 | :--: | :----------------------------- | :---------------------------------------------------: | :------: |
@@ -52,4 +52,5 @@ import { SimpleTag, MediumTag, HardTag } from '@site/src/components/LeetcodeTag/
 | 977 | [有序数组的平方](array/double-pointer/squares-of-a-sorted-array) | [点击查看](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | <SimpleTag /> |
 | 1672 | [最富有客户的资产总量](array/others/richest-customer-wealth) | [点击查看](https://leetcode-cn.com/problems/richest-customer-wealth/) | <SimpleTag /> |
 | 剑指 Offer 05 | [替换空格](string/replace/X005-replace-blank) | [点击查看](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/) | <SimpleTag /> |
+| 剑指 Offer 58 | [左旋转字符串](string/reverse/X058-left-rotate-string) | [点击查看](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/) | <SimpleTag /> |
 
