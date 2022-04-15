@@ -167,6 +167,6 @@ $ git stash pop  # 恢复最新的进度到工作区
 > 参考: [使用 git stash 命令保存和恢复进度](https://blog.csdn.net/daguanjia11/article/details/73810577)
 
 :::note 
-参考资料：[常用 Git 命令清单 - 阮一峰](
+参考资料：[常用 Git 命令清单 - 阮一峰](https://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
 :::
 
