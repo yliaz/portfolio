@@ -41,7 +41,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         blog: {
-          postsPerPage: 20,
+          postsPerPage: 5,
           blogSidebarCount: 'ALL',
           blogSidebarTitle: '最新博客',
           remarkPlugins: [remarkVideoSupport, remarkAbbr, remarkAttr],
@@ -212,7 +212,7 @@ const config = {
         id: 'translation',
         routeBasePath: 'translation',
         path: './translation',
-        postsPerPage: 20,
+        postsPerPage: 5,
         blogSidebarCount: 'ALL',
         blogSidebarTitle: '最新翻译',
         remarkPlugins: [remarkVideoSupport, remarkAbbr, remarkAttr,
