@@ -8,7 +8,7 @@ import { SimpleTag, MediumTag, HardTag } from '@site/src/components/LeetcodeTag/
 
 | <SimpleTag /> | <MediumTag /> | <HardTag /> | [总计](catalogue) |
 | :-----------: | :-----------: | :---------: | :---------------: |
-|      25       |      15       |      1      |        41         |
+|      27       |      15       |      1      |        43         |
 
 | 序号 |              题目              |                       力扣链接                        | 难易程度 |
 | :--: | :----------------------------- | :---------------------------------------------------: | :------: |
@@ -19,6 +19,7 @@ import { SimpleTag, MediumTag, HardTag } from '@site/src/components/LeetcodeTag/
 | 24 | [两两交换链表中的节点](linked-list/others/swap-nodes-in-pairs) | [点击查看](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | <MediumTag /> |
 | 26 | [删除有序数组中的重复项](array/double-pointer/remove-duplicates-from-sorted-array) | [点击查看](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | <SimpleTag /> |
 | 27 | [移除元素](array/double-pointer/remove-element) | [点击查看](https://leetcode-cn.com/problems/remove-element/) | <SimpleTag /> |
+| 28 | [实现 strStr()](string/substring/implement-strstr) | [点击查看](https://leetcode-cn.com/problems/implement-strstr/) | <SimpleTag /> |
 | 34 | [在排序数组中查找元素的第一个和最后一个位置](array/binary-search/find-and-last-position-of-element-in-sorted-array) | [点击查看](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | <MediumTag /> |
 | 35 | [搜索插入位置](array/binary-search/search-insert-position) | [点击查看](https://leetcode-cn.com/problems/search-insert-position/) | <SimpleTag /> |
 | 49 | [字母异位词分组](hash/anagram/group-anagrams) | [点击查看](https://leetcode-cn.com/problems/group-anagrams/) | <MediumTag /> |
@@ -44,6 +45,7 @@ import { SimpleTag, MediumTag, HardTag } from '@site/src/components/LeetcodeTag/
 | 383 | [赎金信](hash/anagram/ransom-note) | [点击查看](https://leetcode-cn.com/problems/ransom-note/) | <SimpleTag /> |
 | 438 | [找到字符串中所有字母异位词](hash/anagram/find-all-anagrams-in-a-string) | [点击查看](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | <MediumTag /> |
 | 454 | [四数相加 II](hash/n-sum/four-sum-ii) | [点击查看](https://leetcode-cn.com/problems/4sum-ii/) | <MediumTag /> |
+| 459 | [重复的子字符串](string/substring/repeated-substring-pattern) | [点击查看](https://leetcode-cn.com/problems/repeated-substring-pattern/) | <SimpleTag /> |
 | 541 | [反转字符串 II](string/reverse/reverse-string-ii) | [点击查看](https://leetcode-cn.com/problems/reverse-string-ii/) | <SimpleTag /> |
 | 704 | [二分查找](array/binary-search/binary-search) | [点击查看](https://leetcode-cn.com/problems/binary-search/) | <SimpleTag /> |
 | 707 | [设计链表](linked-list/basic-operations/design-linked-list) | [点击查看](https://leetcode-cn.com/problems/design-linked-list/) | <MediumTag /> |
