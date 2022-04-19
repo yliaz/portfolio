@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -8,6 +8,7 @@ import Zhuye from '@site/static/img/zhuye.svg'
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
+
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">

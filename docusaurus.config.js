@@ -175,6 +175,23 @@ const config = {
               }
             ]
           },
+          {
+            title: '友情链接',
+            items: [
+              {
+                label: 'Docusaurus',
+                href: 'https://docusaurus.io/'
+              },
+              {
+                label: 'React',
+                href: 'https://reactjs.org/'
+              },
+              {
+                label: 'React Docs(Beta)',
+                href: 'https://beta.reactjs.org/'
+              }
+            ]
+          }
         ],
         copyright: `Copyright © ${new Date().getFullYear()} 朱烨的主页 Built with Docusaurus.`,
       },
