@@ -17,6 +17,17 @@ function HomepageHeader() {
           <Zhuye style={{ color: 'white', maxWidth: 200, maxHeight: 50 }} />
         </h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className='row'>
+          <div className="col col--2 col--offset-3 margin-top--md">
+            <a className="button button--danger button--lg" href="/blog">我的博客</a>
+          </div>
+          <div className="col col--2 margin-top--md">
+            <a className="button button--warning button--lg" href="https://space.bilibili.com/2001085527">我的字幕组</a>
+          </div>
+          <div className="col col--2 margin-top--md">
+            <a className="button button--info button--lg" href="/docs/git/git-local">学习笔记</a>
+          </div>
+        </div>
       </div>
     </header>
   );

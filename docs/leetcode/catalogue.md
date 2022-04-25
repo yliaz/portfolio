@@ -6,7 +6,7 @@ import { SimpleTag, MediumTag, HardTag } from '@site/src/components/LeetcodeTag/
 
 # 0. 总目录
 
-| <SimpleTag /> | <MediumTag /> | <HardTag /> | [总计](catalogue) |
+| <SimpleTag /> | <MediumTag /> | <HardTag /> | [总计](#) |
 | :-----------: | :-----------: | :---------: | :---------------: |
 |      27       |      15       |      1      |        43         |
 
