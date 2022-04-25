@@ -52,6 +52,10 @@
   //--ifm-color-primary-lightest: #9b9cc8;
   //--ifm-code-font-size: 95%;
 
+
+  --ifm-color-pink: #FB7299;
+  --ifm-color-pink-dark: #fa4f7f;
+
 }
 
 .markdown h1:first-child {
@@ -218,4 +222,13 @@ html[data-theme='dark'] .header-github-link:before {
 
 .markdown hr {
   border-style: dashed;
+}
+
+.button--pink {
+  --ifm-button-background-color: var(--ifm-color-pink);
+  --ifm-button-border-color: var(--ifm-color-pink);
+  &:hover {
+    --ifm-button-background-color: var(--ifm-color-pink-dark);
+    --ifm-button-border-color: var(--ifm-color-pink-dark);
+  }
 }
